@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
-import fs from 'fs';
+// import fs from 'fs';
 
 dotenv.config();
 
@@ -47,6 +47,10 @@ export default defineConfig({
           },
         ],
       },
+      injectManifest: {
+        maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB
+        // Các tùy chọn injectManifest khác nếu cần
+      },
       workbox: {
         globPatterns: ['**/*'],
         maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // ✅ Giới hạn tối đa 15MB
@@ -64,34 +68,34 @@ export default defineConfig({
       //   enabled: true, // Bật PWA trong môi trường dev
       // },
     }),
-    {
-      name: 'generate-firebase-sw',
-      buildEnd() {
-        const filePath = path.resolve('src/firebase-messaging-sw.js');
-        if (!fs.existsSync(filePath)) {
-          console.error(`❌ File ${filePath} không tồn tại. Hãy tạo file này trước khi build.`);
-          return;
-        }
-        let content = fs.readFileSync(filePath, 'utf-8');
+    // {
+    //   name: 'generate-firebase-sw',
+    //   buildEnd() {
+    //     const filePath = path.resolve('src/firebase-messaging-sw.js');
+    //     if (!fs.existsSync(filePath)) {
+    //       console.error(`❌ File ${filePath} không tồn tại. Hãy tạo file này trước khi build.`);
+    //       return;
+    //     }
+    //     let content = fs.readFileSync(filePath, 'utf-8');
 
-        // Thay thế biến môi trường
-        content = content
-          .replace('__VITE_FIREBASE_API_KEY__', process.env.VITE_FIREBASE_API_KEY)
-          .replace('__VITE_FIREBASE_AUTH_DOMAIN__', process.env.VITE_FIREBASE_AUTH_DOMAIN)
-          .replace('__VITE_FIREBASE_PROJECT_ID__', process.env.VITE_FIREBASE_PROJECT_ID)
-          .replace('__VITE_FIREBASE_STORAGE_BUCKET__', process.env.VITE_FIREBASE_STORAGE_BUCKET)
-          .replace(
-            '__VITE_FIREBASE_MESSAGING_SENDER_ID__',
-            process.env.VITE_FIREBASE_MESSAGING_SENDER_ID
-          )
-          .replace('__VITE_FIREBASE_APP_ID__', process.env.VITE_FIREBASE_APP_ID)
-          .replace('__VITE_FIREBASE_MEASUREMENT_ID__', process.env.VITE_FIREBASE_MEASUREMENT_ID);
+    //     // Thay thế biến môi trường
+    //     content = content
+    //       .replace('__VITE_FIREBASE_API_KEY__', process.env.VITE_FIREBASE_API_KEY)
+    //       .replace('__VITE_FIREBASE_AUTH_DOMAIN__', process.env.VITE_FIREBASE_AUTH_DOMAIN)
+    //       .replace('__VITE_FIREBASE_PROJECT_ID__', process.env.VITE_FIREBASE_PROJECT_ID)
+    //       .replace('__VITE_FIREBASE_STORAGE_BUCKET__', process.env.VITE_FIREBASE_STORAGE_BUCKET)
+    //       .replace(
+    //         '__VITE_FIREBASE_MESSAGING_SENDER_ID__',
+    //         process.env.VITE_FIREBASE_MESSAGING_SENDER_ID
+    //       )
+    //       .replace('__VITE_FIREBASE_APP_ID__', process.env.VITE_FIREBASE_APP_ID)
+    //       .replace('__VITE_FIREBASE_MEASUREMENT_ID__', process.env.VITE_FIREBASE_MEASUREMENT_ID);
 
-        // Ghi file vào thư mục public
-        fs.writeFileSync(path.resolve('public/firebase-messaging-sw.js'), content);
-        console.log('✅ Generated firebase-messaging-sw.js');
-      },
-    },
+    //     // Ghi file vào thư mục public
+    //     fs.writeFileSync(path.resolve('public/firebase-messaging-sw.js'), content);
+    //     console.log('✅ Generated firebase-messaging-sw.js');
+    //   },
+    // },
   ],
   resolve: {
     alias: {
