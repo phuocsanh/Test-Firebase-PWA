@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 import path from 'path';
 import { defineConfig } from 'vite';
-// import { VitePWA } from 'vite-plugin-pwa';
+import { VitePWA } from 'vite-plugin-pwa';
 import fs from 'fs';
 
 dotenv.config();
@@ -12,6 +12,57 @@ dotenv.config();
 export default defineConfig({
   plugins: [
     react(),
+    VitePWA({
+      // registerType: "autoUpdate",
+      srcDir: 'src',
+      filename: 'firebase-messaging-sw.js',
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      manifest: {
+        name: 'QLDA Hóc Môn',
+        short_name: 'QLDA Hóc Môn',
+        theme_color: '#ffffff',
+        icons: [
+          {
+            src: 'pwa-64x64.png',
+            sizes: '64x64',
+            type: 'image/png',
+          },
+          {
+            src: 'pwa-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'maskable-icon-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
+      },
+      workbox: {
+        globPatterns: ['**/*'],
+        maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // ✅ Giới hạn tối đa 15MB
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/your-api.com\/.*$/, // Thay bằng API bạn cần cache nếu có
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'api-cache',
+            },
+          },
+        ],
+      },
+      // devOptions: {
+      //   enabled: true, // Bật PWA trong môi trường dev
+      // },
+    }),
     {
       name: 'generate-firebase-sw',
       buildEnd() {
