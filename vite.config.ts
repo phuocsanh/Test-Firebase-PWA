@@ -13,7 +13,8 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      // registerType: "autoUpdate",
+      registerType: 'autoUpdate', // Không ghi đè SW cũ
+      strategies: 'injectManifest', // Giữ nguyên service worker gốc
       srcDir: 'src',
       filename: 'firebase-messaging-sw.js',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
