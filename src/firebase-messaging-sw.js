@@ -1,8 +1,25 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
-/* global importScripts, firebase ,clients */
+/* global importScripts, firebase, clients */
+import { precacheAndRoute } from 'workbox-precaching';
+import { registerRoute } from 'workbox-routing';
+import { StaleWhileRevalidate } from 'workbox-strategies';
+
 importScripts('https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js');
+
 const CACHE_VERSION = 'v1.0.0'; // Thay đổi version khi cập nhật SW
+
+// ✅ Precache các file được inject bởi Workbox (nếu có)
+// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+precacheAndRoute(self.__WB_MANIFEST || []);
+
+// ✅ Đảm bảo các request API không bị cache vĩnh viễn
+registerRoute(
+  ({ url }) => url.origin.includes('https://test-firebase-pwa.onrender.com'), // Thay thế bằng API thật
+  new StaleWhileRevalidate({
+    cacheName: 'api-cache',
+  })
+);
 
 self.addEventListener('install', event => {
   console.log(`Installing Service Worker ${CACHE_VERSION}`);
@@ -22,9 +39,6 @@ self.addEventListener('activate', event => {
     })
   );
 });
-
-
-
 
 const firebaseConfig = {
   apiKey: '__VITE_FIREBASE_API_KEY__',
@@ -62,10 +76,10 @@ self.addEventListener('notificationclick', event => {
   const id = event.notification.data.refId || null;
   console.log('URL to open:', urlToOpen);
 
-function navigateToPath(type, id) {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-  return id == null || id < 0 ? type : `${type}/${id}`;
-}
+  function navigateToPath(type, id) {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+    return id == null || id < 0 ? type : `${type}/${id}`;
+  }
   event.waitUntil(
     clients
       .matchAll({ type: 'window', includeUncontrolled: true })
@@ -81,7 +95,7 @@ function navigateToPath(type, id) {
             // console.log('Active client found:', activeClient);
             // Gửi thông điệp đến client để tự xử lý chuyển hướng
             activeClient.postMessage({ type: 'NAVIGATE', path: navigateToPath(urlToOpen, id) });
-// eslint-disable-next-line @typescript-eslint/no-unsafe-return
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-return
             return activeClient.focus();
           }
           // console.log('No suitable client found, opening new window');
