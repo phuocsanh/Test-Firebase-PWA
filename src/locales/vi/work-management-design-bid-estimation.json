@@ -1,0 +1,50 @@
+{
+  "model": "QLCV-Thiết kế, dự toán gói thầu",
+  "page": {
+    "header": "QLCV - Thiết kế, dự toán gói thầu",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Thêm QLCV - Thiết kế, dự toán gói thầu"
+    },
+    "tabs": {
+      "itemsRecordManagement": "File đính kèm"
+    }
+  },
+
+  "fields": {
+    "branchId": "Chi nhánh",
+    "storeId": "Cửa hàng",
+    "ids": "IDS",
+    "sort": "Sort",
+    "code": "Mã phiếu",
+    "id": "Khóa chính",
+
+    "workManagementDesignBidEstimationTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "projectId": "Dự án",
+    "name": "Tên công việc",
+    "departmentId": "Phòng",
+    "statusId": "Trạng thái",
+    "progress": "Tiến độ",
+    "executorId": "Cán bộ thực hiện",
+    "relatedUserIds": "Người liên quan",
+    "relatedUserIdsArray": "Người liên quan",
+    "proposalNumber": "Số tờ trình",
+    "appraisalDepartmentId": "PT. Thẩm định",
+    "appraisalDepartmentIdTooltip": "Phòng trình thẩm định",
+    "qualityPlanningTaskAssignmentDate": "Ngày giao P.KHCL",
+    "qualityPlanningTaskAssignmentDateTooltip": "Ngày giao nhiệm vụ của phòng KHCL",
+    "qualityPlanningCompletionDate": "Ngày HT P.KHCL",
+    "qualityPlanningCompletionDateTooltip": "Ngày hoàn thành của phòng KHCL",
+    "appraisalCompletionDate": "NHT. Thẩm định",
+    "appraisalCompletionDateTooltip": "Ngày hoàn thành thẩm định",
+
+    "completionDeadline": "Thời hạn HTTN",
+    "completionDeadlineTooltip": "Thời hạn hoàn thành trước ngày",
+    "appraisalReport": "Báo cáo thẩm định",
+    "approvalDecision": "Quyết định phê duyệt",
+    "note": "Ghi chú",
+    "isSaveTmp": "Lưu tạm",
+    "itemsRecordManagement": "File đính kèm"
+  }
+}

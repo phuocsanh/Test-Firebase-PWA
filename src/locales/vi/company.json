@@ -1,0 +1,27 @@
+{
+  "model": "Thông tin công ty",
+  "page": {
+    "header": "Thông tin công ty",
+    "description": "Quản lý và thiết lập thông tin công ty, doanh nghiệp",
+    "businessFieldsGroup": "Thông tin doanh nghiệp",
+    "representativeFieldsGroup": "Thông tin người đại diện"
+  },
+  "fields": {
+    "id": "Id",
+    "code": "Mã công ty",
+    "name": "Tên công ty",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại liên lạc",
+    "fax": "Fax",
+    "taxCode": "Mã số thuế",
+    "bankAccount": "Số tài khoản",
+    "representative": "Người đại diện",
+    "position": "Chức vụ",
+    "description": "Mô tả",
+    "storeId": "",
+    "isInactive": "Ngưng hoạt động",
+    "bankAddress": "Địa chỉ ngân hàng",
+    "accountNumber": "Số tài khoản",
+    "isDelete": "Đã xóa"
+  }
+}

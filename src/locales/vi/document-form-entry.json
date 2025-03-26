@@ -1,0 +1,39 @@
+{
+    "model": "Nhập dữ liệu theo biểu mẫu chung",
+    "page": {
+        "header": "Nhập dữ liệu theo biểu mẫu chung",
+        "form": {
+            "edit": "Sửa nhập dữ liệu theo biểu mẫu chung",
+            "addNew": "Thêm nhập dữ liệu theo biểu mẫu chung"
+        },
+        "tabs": {
+            "project": "Công trình"
+        }
+    },
+    "fields": {
+        "id": "Khóa chính",
+        "documentFormEntryTime": "Ngày lập",
+        "userCreatedId": "Người lập",
+        "note": "Ghi chú",
+        "numberOfCode": "Số biểu mẫu",
+        "name": "Tên biểu mẫu",
+        "ids": "ids",
+        "sort": "sort",
+        "content": "Nội dung",
+        "usageYear": "Năm sử dụng",
+        "isReportTemplateBase": "Là mẫu chung",
+        "reportTemplateId": "Biểu mẫu báo cáo",
+        "documentFormEntryProjects": {
+            "id": "Khóa chính",
+            "documentFormEntryId": "Nhập dữ liệu theo biểu mẫu chung",
+            "projectId": "Tên công trình, dự án",
+            "capitalIncreasePlanDetailId": "Mã nguồn ngân sách",
+            "documentFormEntryProjectDetails": {
+                "id": "Khóa chính",
+                "documentFormEntryProjectId": "Nhập dữ liệu theo biểu mẫu chung - Dự án",
+                "reportTemplateDetailId": "Tên cột",
+                "value": "Giá trị"
+            }
+        }
+    }
+}

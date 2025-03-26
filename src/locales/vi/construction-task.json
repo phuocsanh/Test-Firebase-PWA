@@ -1,0 +1,20 @@
+{
+    "model": "Công tác thực hiện",
+    "page": {
+      "header": "Công tác thực hiện",
+      "form": {
+        "edit": "Thông tin chi tiết",
+        "addNew": "Tạo công tác thực hiện"
+      }
+    },
+    "fields": {
+      "code": "Mã",
+      "name": "Công tác thực hiện",
+      "note": "Ghi chú",
+      "isActive": "Hoạt động",
+      "constructionItemId": "Thuộc hạng mục", 
+      "projectId": "Dự án",
+      "unitId": "Đơn vị tính"
+    }
+}
+  

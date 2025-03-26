@@ -1,0 +1,22 @@
+{
+  "model": "Danh sách thiết lập căn cứ quyết định",
+  "page": {
+    "header": "Danh sách thiết lập căn cứ quyết định",
+    "form": {
+      "edit": "Sửa thiết lập căn cứ quyết định",
+      "addNew": "Tạo mới thiết lập căn cứ quyết định"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "code": "Mã căn cứ",
+    "name": "Tên căn cứ",
+    "content": "Nội dung",
+    "error": {
+      "code_invalid": "không dấu, không khoảng trống, không ký tự đặc biệt."
+    }
+  }
+}

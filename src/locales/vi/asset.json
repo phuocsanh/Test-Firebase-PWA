@@ -1,0 +1,18 @@
+{
+  "model": "Tài sản",
+  "page": {
+    "header": "Tài sản",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo tài sản"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên tài sản",
+    "assetTypeId": "Loại tài sản",
+    "unitId": "Đơn vị tính",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

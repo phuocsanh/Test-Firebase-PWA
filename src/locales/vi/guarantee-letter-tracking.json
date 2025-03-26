@@ -1,0 +1,37 @@
+{
+  "model": "Theo dõi thư bảo lãnh",
+  "page": {
+    "header": "Theo dõi thư bảo lãnh",
+    "form": {
+      "edit": "Thông tin Theo dõi thư bảo lãnh",
+      "addNew": "Tạo mới Theo dõi thư bảo lãnh"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "statusOptions": {
+      "onTime": "Hết hạn",
+      "overdue": "Còn hạn"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "guaranteeLetterTrackingTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "correspondenceDate": "Ngày thư",
+    "contractNumber": "Số hợp đồng",
+    "correspondenceTypeId": "Loại thư",
+    "entityName": "Tên đơn vị",
+    "projectId": "Công trình",
+    "officerId": "Cán bộ",
+    "responsibleAccountantId": "Kế toán phụ trách",
+    "correspondenceValue": "Giá trị thư",
+    "correspondenceDuration": "Thời hạn thư",
+    "expirationDate": "Ngày hết hạn",
+    "statusType": "Tình trạng",
+    "note": "Ghi chú",
+    "s": {}
+  }
+}

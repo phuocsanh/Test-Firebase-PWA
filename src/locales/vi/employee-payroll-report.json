@@ -1,0 +1,35 @@
+{
+  "model": "Danh sách bảng lương nhân viên chức",
+  "page": {
+    "header": "Danh sách bảng lương nhân viên chức",
+    "form": { 
+    }
+  },
+  "fields": {
+    "salarySheetId":"Bảng lương",
+    "ordinalNumber":"",
+    "employeeCode":"Mã nhân viên",
+    "employeeName":"Họ và tên",
+    "positionCode":"Chức danh",
+    "positionName":"Tên chức danh",
+    "randCode":"Mã ngạch",
+    "salaryCoefficient":"Hệ số lương",
+    "salary":"Tiền lương",
+    "salaryTotalAmount":"Thành tiền",
+    "salaryDeductionsFromSalary":"Các khoản trừ vào lương",
+    "salaryNetSalary":"Thực lãnh",
+    "positionAllowanc":"Phụ cấp chức vụ",
+    "positionAllowancTotalAmount":"Thành tiền",
+    "positionAllowancDeductionsFromSalary":"Các khoản trừ vào lương",
+    "positionAllowancNetSalary":"Thực lãnh",
+    "beyondTheSalaryScale":"Phụ cấp vượt khung",
+    "beyondTheSalaryScaleTotalAmount":"Thành tiền",
+    "beyondTheSalaryScaledeductionsFromSalary":"Các khoản trừ vào lương",
+    "beyondTheSalaryScaleNetSalary":"Thực lãnh",
+    "chiefAccountantResponsibilityAllowance":"Phụ cấp trách nhiệm công việc kế toán trưởng",
+    "hazardAllowance":"Phụ cấp độc hại",
+    "professionalSeniorityAllowance":"Phụ cấp thâm niên nghề",
+    "internshipMentorshipResponsibilityAllowance":"Phụ cấp trách nhiệm hướng dẫn tập sự",
+    "netSalary":"Thực lãnh"
+  }
+}

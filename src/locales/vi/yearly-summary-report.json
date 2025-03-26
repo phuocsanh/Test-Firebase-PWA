@@ -1,0 +1,28 @@
+{
+  "model": "Chỉ tiêu, nhiệm vụ – Nội dung chỉ đạo – Tổng hợp",
+  "page": {
+    "header": "",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "ordinalNumber": "STT",
+    "totalAssignedTargetsTasks": "Số chỉ tiêu, nhiệm vụ được giao",
+    "onTimeCompletion": "Đúng hạn",
+    "lateCompletion": "Trễ hạn",
+    "incompleteTasks": "Chưa hoàn thành",
+    "onTimeCompletionRate": "Hoàn thành đúng hạn (tỉ lệ %)",
+    "lateCompletionRate": "Hoàn thành trễ hạn (tỉ lệ %)",
+    "incompletionRate": "Chưa hoàn thành (tỉ lệ %)",
+    "year": "Năm thống kê",
+    "target": "Tổng chỉ tiêu",
+    "completionRate": "Tỉ lệ hoàn thành",
+    "timeCompletion": "Hoàn thành"
+  }
+}

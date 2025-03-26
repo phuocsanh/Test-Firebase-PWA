@@ -1,0 +1,29 @@
+{
+  "model": "Tỷ lệ tiết kiệm trong công tác LCNT",
+  "page": {
+    "header": "Tỷ lệ tiết kiệm trong công tác LCNT",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {},
+    "year": "Năm",
+    "listProjectId": "Dự án"
+  },
+  "fields": {
+    "ordinalNumber": "Tỷ lệ tiết kiệm trong công tác LCNT",
+    "biddingSectorName": "Tên gói thầu",
+    "inPhase": "Giai đoạn",
+    "singlePackageValueVnd": "Giá gói thầu ",
+    "singleContractValueVnd": "Giá hợp đồng ",
+    "singleSavingRatePercent": "Tỷ lệ % ",
+    "biddingPackageValueVnd": "Giá gói thầu ",
+    "biddingContractValueVnd": "Giá hợp đồng ",
+    "biddingSavingRatePercent": "Tỷ lệ % ",
+    "packageValueVnd": "Giá gói thầu ",
+    "contractValueVnd": "Giá hợp đồng "
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "model": "Thiết lập tiến độ thực hiện dự án",
+  "page": {
+    "header": "Thiết lập tiến độ thực hiện dự án",
+    "form": {
+      "edit": "Thông tin Thiết lập tiến độ thực hiện dự án",
+      "addNew": "Thêm Thiết lập tiến độ thực hiện dự án",
+      "tabs": {
+        "detail": "Thông tin chi tiết"
+      }
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {},
+    "menu": {
+      "addChild": "Thêm công việc con",
+      "addDown": "Chèn công việc mới",
+      "edit": "Chỉnh sửa công việc",
+      "remove": "Xóa công việc"
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "projectWorkflowName": "Tên quy trình",
+    "projectScheduleSetupTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "branchId": "",
+    "projectScheduleSetupDetails": {
+      "id": "Khóa chính",
+      "projectScheduleSetupId": "Bảng cha",
+      "taskName": "Tên công việc",
+      "durDay": "Ngày",
+      "taskDependency": "Mối liên hệ",
+      "note": "Ghi chú",
+      "parentId": "Thuộc công việc",
+      "columnIndex": "Thứ tự",
+      "taskType": "Loại công việc liên hệ",
+      "taskRelationId": "Công việc liên hệ"
+    }
+  }
+}

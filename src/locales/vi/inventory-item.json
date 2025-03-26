@@ -1,0 +1,18 @@
+{
+  "model": "Vật tư, thiết bị",
+  "page": {
+    "header": "Vật tư, thiết bị",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo vật tư, thiết bị"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên vật tư, thiết bị",
+    "assetTypeId": "Loại vật tư, thiết bị",
+    "unitId": "Đơn vị tính",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

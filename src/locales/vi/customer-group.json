@@ -1,0 +1,21 @@
+{
+    "model": "Nhóm khách hàng",
+    "page": {
+        "header": "Nhóm khách hàng",
+        "description": "Quản lý thông tin danh sách nhóm khách hàng với các thông tin tổng quan",
+        "form": {
+            "edit": "Chỉnh sửa nhóm khách hàng",
+            "addNew": "Thêm mới nhóm khách hàng",
+            "description": "Quản lý thông tin nhóm khách hàng với việc thêm mới và cập nhật"
+        }
+    },
+    "fields": {
+        "code": "Mã nhóm khách hàng",
+        "name": "Tên nhóm khách hàng",
+        "groupType": "Loại nhóm",
+        "note": "Ghi chú",
+        "scheduleSales": "Lịch bán hàng",
+        "status": "Trạng thái",
+        "isInactive": "Ngưng hoạt động"
+    }
+}

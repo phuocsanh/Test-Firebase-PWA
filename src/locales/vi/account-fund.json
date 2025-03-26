@@ -1,0 +1,20 @@
+{
+  "model": "Tài khoản/Quỹ",
+  "page": {
+    "header": "Tài khoản/Quỹ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo tài khoản/quỹ"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên tài khoản",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "parentId": "Tài khoản cha",
+    "accountFundType": "Loại tài khoản",
+    "initialFunds": "Số dư ban đầu",
+    "balanceType": "Loại số dư"
+  }
+}

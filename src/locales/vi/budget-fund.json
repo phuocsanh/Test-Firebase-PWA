@@ -1,0 +1,23 @@
+{
+  "model": "Nguồn ngân sách",
+  "page": {
+    "header": "Nguồn ngân sách",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo nguồn ngân sách"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Nguồn ngân sách",
+    "budgetSourceCodeIds": "Mã nguồn NS",
+    "budgetSourceCodeIdsTooltip": "Mã nguồn NS",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "parentId": "Thuộc nguồn vốn"
+  },
+  "cellRender": {
+    "isActive": "Đang hoạt động",
+    "isInActive": "Ngưng hoạt động"
+  }
+}

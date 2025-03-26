@@ -1,0 +1,38 @@
+{
+  "model": "Cam kết chi",
+  "page": {
+    "header": "Cam kết chi",
+    "form": {
+      "edit": "Thông tin Cam kết chi",
+      "addNew": "Thêm Cam kết chi"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "spendingCommitmentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "code": "Mã phiếu",
+    "numberOfCode": "Số phiếu",
+    "budgetYear": "Năm ngân sách",
+    "projectId": "Dự án",
+    "contractId": "Hợp đồng",
+    "contractorId": "Nhà cung cấp",
+    "capitalIncreasePlanDetailId": "Mã nguồn NS",
+    "capitalIncreasePlanDetailIdTooltip": "Mã nguồn ngân sách",
+    "programCode": "Mã chương",
+    "budgetSourceCodeId": "Mã nguồn NS",
+    "budgetSourceCodeIdTooltip": "Mã nguồn ngân sách",
+    "sectorCode": "Mã NDKT",
+    "sectorCodeTooltip": "Mã nội dung kinh tế",
+    "totalAmount": "Số tiền",
+    "note": "Ghi chú",
+    "ids": "ids",
+    "sort": "sort",
+    "s": {}
+  }
+}

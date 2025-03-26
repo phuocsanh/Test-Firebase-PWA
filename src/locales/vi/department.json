@@ -1,0 +1,17 @@
+{
+  "model": "Phòng chuyên môn",
+  "page": {
+    "header": "Phòng chuyên môn",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo phòng chuyên môn"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Phòng chuyên môn",
+    "departmentHeadId": "Trưởng phòng",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

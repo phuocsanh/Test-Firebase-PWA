@@ -1,0 +1,42 @@
+{
+  "model": "Giải ngân theo dự án",
+  "page": {
+    "header": "Giải ngân theo dự án",
+    "form": {
+      "edit": "Thông tin Giải ngân theo dự án",
+      "addNew": "Thêm Giải ngân theo dự án"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "detail": "Thông tin chi tiết",
+    "id": "Khóa chính",
+    "branchId": "",
+    "projectId": "Dự án",
+    "year": "Năm đề xuất vốn",
+    "ids": "ids",
+    "sort": "sort",
+    "projectDisbursementDetails": {
+      "id": "Khóa chính",
+      "projectDisbursementId": "Giải ngân theo dự án",
+      "task": "Công việc",
+      "contractValue": "Giá trị hợp đồng",
+      "executedValue": "Giá trị thực hiện",
+      "amountPaid": "Giá trị đã thanh toán",
+      "year1": "Năm 1",
+      "year2": "Năm 2",
+      "year3": "Năm 3",
+      "year4": "Năm 4",
+      "cumulativeExecutedVolume": "Lũy kế khối lượng thực hiện",
+      "finalSettlementAB": "Quyết toán A-B",
+      "cumulativePaidValue": "Lũy kế giá trị thanh toán",
+      "remainingValue": "Giá trị còn lại",
+      "executingAgency": "Cơ quan đơn vị thực hiện",
+      "capitalProposal": "Đề xuất vốn",
+      "note": "Ghi chú"
+    }
+  }
+}

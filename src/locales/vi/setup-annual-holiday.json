@@ -1,0 +1,38 @@
+{
+  "model": "Thiết lập ngày nghỉ trong năm",
+  "page": {
+    "header": "Thiết lập ngày nghỉ trong năm",
+    "form": {
+      "edit": "Sửa thiết lập ngày nghỉ trong năm",
+      "addNew": "Tạo mới thiết lập ngày nghỉ trong năm"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "year": "Năm",
+    "fromDate": "Từ ngày",
+    "toDate": "Đến ngày",
+    "isHolidaySunday": "Nghỉ chủ nhật",
+    "holidayType": "1 (Không nghỉ thứ 7) 2 (Nghỉ thứ 7 nữa buổi) 3 (Nghỉ thứ 7 cả ngày)",
+
+    "note": "Ghi chú",
+    "setupAnnualHolidayDetails": {
+      "id": "Khóa chính",
+      "setupAnnualHolidayId": "Thiết lập ngày nghỉ trong năm",
+      "fromDate": "Từ ngày",
+      "toDate": "Đến ngày",
+      "holidayName": "Tên ngày lễ"
+    },
+    "saturdayOff": "Nghỉ thứ 7 cả ngày",
+    "halfDayOffOnSaturday": "Nghỉ thứ 7 nửa buổi",
+    "noSaturdayOff": "Không nghỉ thứ 7",
+    "holidaySaturdayType": "Nghỉ thứ 7",
+    "errValidateFromDate": "Từ ngày phải nhỏ hơn hoặc bằng đến ngày."
+  }
+}

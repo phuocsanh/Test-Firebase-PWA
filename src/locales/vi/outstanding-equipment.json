@@ -1,0 +1,38 @@
+{
+  "model": "Thiết bị tồn đọng",
+  "page": {
+    "header": "Thiết bị tồn đọng",
+    "form": {
+      "edit": "Thông tin Thiết bị tồn đọng",
+      "addNew": "Tạo mới Thiết bị tồn đọng"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết",
+      "allocated": "Vật tư thiết bị tồn đọng giao cho đơn vị tiếp nhận",
+      "processed": "Vật tư thiết bị tồn đọng xử lý theo quy định"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "note": "Ghi chú",
+    "code": "Mã phiếu",
+    "outstandingEquipmentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "projectId": "Dự án",
+    "totalAmount": "Tổng tiền",
+    "outstandingEquipmentDetails": {
+      "id": "Khóa chính",
+      "outstandingEquipmentId": "Thiết bị tồn đọng",
+      "inventoryItemId": "Thiết bị tồn đọng",
+      "unitId": "Đơn vị tính",
+      "quantity": "Số lượng",
+      "price": "Đơn giá",
+      "remainingValue": "Giá trị còn lại",
+      "outstandingEquipmentType": "Loại (1 Giao 2 Xử lý)",
+      "entityName": "Đơn vị tiếp nhận sử dụng",
+      "note": "Ghi chú"
+    }
+  }
+}

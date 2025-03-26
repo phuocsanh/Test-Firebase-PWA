@@ -1,0 +1,16 @@
+{
+  "model": "Loại nhân viên",
+  "page": {
+    "header": "Loại nhân viên",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại nhân viên"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại nhân viên",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

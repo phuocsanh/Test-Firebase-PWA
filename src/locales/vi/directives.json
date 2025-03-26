@@ -1,0 +1,11 @@
+{
+  "model": "Nội dung chỉ đạo, chỉ tiêu, nhiệm vụ",
+  "page": {
+    "header": "Nội dung chỉ đạo, chỉ tiêu, nhiệm vụ",
+    "tabs": {
+      "content": "Nội dung chỉ đạo",
+      "target": "Chỉ tiêu",
+      "task": "Nhiệm vụ"
+    }
+  }
+}

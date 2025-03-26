@@ -1,0 +1,16 @@
+{
+  "model": "Giai đoạn triển khai dự án",
+  "page": {
+    "header": "Giai đoạn triển khai dự án",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo giai đoạn triển khai dự án"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Giai đoạn triển khai dự án",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Lĩnh vực đấu thầu",
+  "page": {
+    "header": "Lĩnh vực đấu thầu",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo lĩnh vực đấu thầu"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Lĩnh vực đấu thầu",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

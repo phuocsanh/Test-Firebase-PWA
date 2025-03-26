@@ -1,0 +1,22 @@
+{
+  "model": "Nhà thầu",
+  "page": {
+    "header": "Nhà thầu",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo nhà thầu"
+    }
+  },
+  "fields": {
+    "contractorTypeId": "Loại nhà thầu",
+    "code": "Mã",
+    "name": "Tên nhà thầu",
+    "address": "Địa chỉ",
+    "representativeName": "Người đại diện",
+    "phone": "Số điện thoại",
+    "fax": "Fax",
+    "email": "Email",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

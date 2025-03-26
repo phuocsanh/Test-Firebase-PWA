@@ -1,0 +1,134 @@
+{
+  "model": "Dự án",
+  "page": {
+    "header": "Thông tin dự án",
+    "tabs": {
+      "generalInfo": "Thông tin chung",
+      "humanResources": "Nhân sự",
+      "preparation": "Chuẩn bị dự án",
+      "totalInvestment": "Tồng mức đầu tư",
+      "adjustedInvestment": "Tổng mức đầu tư điều chỉnh",
+      "costEstimation": "Dự toán",
+      "adjustedCostEstimation": "Dự toán điều chỉnh",
+      "documents": "Hồ sơ dự án",
+      "progress": "Quản lý tiến độ"
+    },
+    "accordion": {
+      "pm": "Quản lý dự án",
+      "accounting": "Kế toán",
+      "pmd": "Phòng QLDA",
+      "qpd": "Phòng kế hoạch - Chất lương",
+      "accountingDepartment": "Phòng kế toán",
+      "boardOfDirectors": "Thành viên Ban Giám Đốc"
+    },
+    "year": "Năm",
+    "addNewProject": "Thêm mới dự án",
+    "taskEditingDialog": {
+      "editingTitle": "Chi tiết công việc",
+      "addingTitle": "Thêm công việc"
+    },
+    "pmDirector": "Thiết lập người phụ trách",
+    "changePmDirector": "Đổi người phụ trách",
+    "changeImplementTime": "Cập nhật thời gian thực hiện",
+    "changePmHistoryHeader": "Lịch sử đổi người phụ trách",
+    "changeImplementTimeHistoryHeader": "Lịch sử thay đổi thời gian thực hiện"
+  },
+  "fields": {
+    "storeId": "Cửa hàng",
+    "branchId": "Chi nhánh",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "projectId": "Mã dự án",
+    "code": "Mã dự án",
+    "name": "Tên công trìn dự án",
+    "note": "Ghi chú",
+    "budgetPreparationCode": "Mã quan hệ ngân sách chuẩn bị đầu tư",
+    "budgetExecutionCode": "Mã quan hệ ngân sách thực hiện đầu tư",
+    "budgetFundId": "Nguồn vốn",
+    "budgetFundCode": "Mã nguồn NS",
+    "projectStatusId": "Tình trạng dự án",
+    "projectOwnerId": "Chủ đầu tư",
+    "projectGroupId": "Nhóm dự án",
+    "pmoDirectorId": "Giám đốc ban quản lý dự án",
+    "projectManagementDirectorId": "Giám đốc quản lý dự án",
+    "departmentInChargeId": "Phòng phụ trách",
+    "projectManagementTypeId": "Hình thức quản lý dự án",
+    "landUseArea": "Diện tích sử dụng đất",
+    "landClearancePlanType": "Phương án giải phóng mặt bằng",
+    "districtId": "Địa điểm đầu tư (huyện)",
+    "wardId": "Địa điểm đầu tư (xã)",
+    "contactPhone": "Điện thoại liên hệ",
+    "contactEmail": "Email",
+    "objective": "Mục tiêu",
+    "designCapacity": "Quy mô dự án/Năng lực thiết kế",
+    "accountOpeningLocation": "Địa điểm mở tài khoản dự án",
+    "investorAccountNumber": "Số tài khoản chủ đầu tư",
+    "financeDepartmentProjectCode": "Mã dự án do Sở tài chính cấp",
+    "programCode": "Mã chương",
+    "sectorCode": "Mã ngành",
+    "projectTime": "Ngày lập",
+    "projectHumanResources": {
+      "memberId": "Thành viên",
+      "positionId": "Chức vụ"
+    },
+    "documentCode": "Số văn bản",
+    "signingDate": "Ngày ký",
+    "signerId": "Người ký",
+    "projectDetail": {
+      "costItemId": "Nội dung chi phí",
+      "symbol": "Ký hiệu",
+      "percentageRate": "Tỷ lệ %",
+      "calculationMethod": "Cách tính",
+      "preTaxValue": "Giá trị trước thuế",
+      "vatTax": "Thuế CTCT (8%)",
+      "postTaxValue": "Giá trị sau thuế",
+      "vat": "% Thuế CTCT",
+      "preTaxValueBefore": "Giá trị trước thuế cận cuối cùng",
+      "vatTaxBefore": "Thuế CTCT (8%) cận cuối cùng",
+      "postTaxValueBefore": "Giá trị sau thuế cận cuối cùng",
+      "vatBefore": "% Thuế CTCT cận cuối cùng"
+    },
+    "projectDetailSummaries": {
+      "costItemTypeId": "Nội dung chi phí",
+      "costItemValue": "Giá trị",
+      "costItemValueBefore": "Giá trị cận cuối cùng"
+    },
+    "projectScheduleSetupId": "Quy trình áp dụng",
+    "startDate": "Ngày bắt đầu",
+    "userCreatedId": "Người lập",
+    "progressSchedule": {
+      "taskName": "Tên công việc",
+      "durDay": "Ngày",
+      "dependencyType": "Mối liên hệ",
+      "fromDate": "Từ ngày",
+      "toDate": "Đến ngày",
+      "progressPercentage": "Tiến độ thực hiện",
+      "assigneeId": "Người thực hiện",
+      "taskType": "Loại công việc liên hệ",
+      "taskRelationId": "Công việc liên hệ"
+    },
+    "levelType": "Cấp công trình",
+    "investmentFormId": "Hình thức đầu tư",
+    "investmentTypeId": "Loại hình đầu tư",
+    "agencyApprovalId": "Cơ quan quyết định đầu tư",
+    "constructionTypeId": "Loại công trình",
+    "projectImplementTime": "Thời gian thực hiện dự án",
+    "approvalNumber": "Số quyết định",
+    "approvalDate": "Ngày quyết định",
+    "agencyId": "Cơ quan ban hành",
+    "update": {
+      "updaterId": "Người chỉnh sửa",
+      "updatedTime": "Thời gian chỉnh sửa",
+      "fromDateToDate": "Từ năm {{fromDate}} đến năm {{toDate}}"
+    }
+  },
+  "notification": {
+    "changePmSuccess": "Đổi người phụ trách cho dự án {{projectName}} thành công",
+    "changeImplementTimeSuccess": "Cập nhật thời gian thực hiện dự án {{projectName}} thành công"
+  },
+  "contextMenu": {
+    "settingPmDirector": "Thiết lập người phụ trách",
+    "changePmDirector": "Thay đổi người phụ trách",
+    "changeImplementTime": "Thay đổi thời gian thực hiện"
+  }
+}

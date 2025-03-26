@@ -1,0 +1,78 @@
+{
+  "model": "Quản lý công việc hợp đồng",
+  "page": {
+    "header": "Quản lý công việc hợp đồng",
+    "form": {
+      "saveTemp": "Lưu tạm",
+      "tabs": {
+        "detail": "Quản lý công việc",
+        "attachment": "Hồ sơ đính kèm"
+      },
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo công việc hợp đồng"
+    },
+    "tabs": {
+      "contractTaskManagementDocuments": "Phụ lục hồ sơ đính kèm",
+      "financeDepartments": "Phòng tài chính - Tổng hợp",
+      "planningDepartments": "Phòng kế hoạch - Chất lượng",
+      "executionResult": "kết quả thực hiện"
+    }
+  },
+
+  "fields": {
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "contractTaskManagementTime": "Ngày gửi",
+    "projectManagementDepartmentId": "Phòng QLDA",
+    "projectManagementDirectorId": "GĐ.QLDA",
+    "projectId": "Dự án",
+    "completionTime": "Ngày hoàn thành",
+    "isDraftCompletion": "Dự thảo BB hoàn thiện/thương thảo HĐ",
+    "isDraftContract": "Dự thảo hợp đồng",
+    "isDraftSubContract": "Dự thảo phụ lục hợp đồng",
+    "isEligibleForSigning": "HS đủ điều kiện ký kết",
+    "isNotEligibleForSigning": "HS không đủ điều kiện ký kết",
+    "note": "Ghi chú",
+    "contractTaskManagementProjectDepartments": {
+      "contractTaskManagementId": "phiếu cha ID",
+      "revisedNumber": "thay đổi lần thứ",
+      "submissionContent": "Nội dung trình",
+      "directorOpinion": "Ý kiến GĐ.QLDA",
+      "departmentHeadOpinion": "Ý kiến TP.QLDA",
+      "userApproveId": "Người duyệt",
+      "approveTime": "Ngày duyệt",
+      "isApprove": "Đồng ý hoặc từ chối"
+    },
+
+    "contractTaskManagementFinanceDepartments": {
+      "revisedNumber": "Thay đổi lần thứ",
+      "receivedTime": "Ngày nhận HS",
+      "completionTime": "Ngày hoàn thành",
+      "assignedUserId": "Giao CB.P.TC-TH",
+      "opinion": "Ý kiến",
+      "departmentHeadOpinion": "Ý kiến TP.TC-TH",
+      "userApproveId": "Người duyệt",
+      "approveTime": "Ngày duyệt",
+      "isApprove": "Đồng ý hoặc từ chối"
+    },
+
+    "contractTaskManagementPlanningDepartments": {
+      "revisedNumber": "Thay đổi lần thứ",
+      "receivedTime": "Ngày nhận HS",
+      "completionTime": "Ngày hoàn thành",
+      "assignedUserId": "Giao CB.P.KH-CL",
+      "opinion": "Ý kiến",
+      "departmentHeadOpinion": "Ý kiến TP.KH-CL",
+      "userApproveId": "Người duyệt",
+      "approveTime": "Ngày duyệt",
+      "isApprove": "Đồng ý hoặc từ chối"
+    },
+
+    "contractTaskManagementDocuments": {
+      "components": "Thành phần hồ sơ",
+      "quantity": "Số lượng",
+      "isAvailable": "Có",
+      "isNotAvailable": "Không"
+    }
+  }
+}

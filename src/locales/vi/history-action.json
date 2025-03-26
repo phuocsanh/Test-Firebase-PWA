@@ -1,0 +1,26 @@
+{
+  "model": "Lịch sử thao tác",
+  "page": {
+    "header": "Lịch sử thao tác",
+    "form": {
+      "edit": "Thông tin Lịch sử thao tác",
+      "addNew": "Thêm Lịch sử thao tác"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "userActionId": "Người tạo",
+    "dateCreate": "Thời gian ghi log",
+    "professionType": "Loại nghiệp vụ",
+    "actionType": "Loại lịch sử",
+    "refId": "Id liên kết với nghiệp vụ",
+    "refCode": "Code liên kết với nghiệp vụ",
+    "content": "Nội dung lịch sử",
+    "professionTypeId": "Chức năng",
+    "s": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Mã nguồn NS",
+  "page": {
+    "header": "Mã nguồn NS",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Thêm mã nguồn NS"
+    }
+  },
+  "fields": {
+    "code": "Mã nguồn NS",
+    "name": "Tên nguồn NS",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "model": "Khách hàng",
+    "page": {
+        "header": "Khách hàng",
+        "description": "Quản lý danh sách khách hàng với những thông tin tổng quan",
+        "form": {
+            "tabInfo": "Thông tin",
+            "tabDebt": "Công nợ ban đầu theo chi nhánh",
+            "addNew": "Thêm mới thông tin khách hàng",
+            "edit": "Chỉnh sửa thông tin khách hàng",
+            "description": "Cập nhật hoặc thêm mới thông tin chi tiết về khách hàng"
+        }
+    },
+    "fields": {
+        "groupId": "Nhóm khách hàng",
+        "code": "Mã khách hàng",
+        "name": "Tên khách hàng",
+        "phone": "SĐT khách hàng",
+        "status": "Trạng thái",
+        "nameVat": "Tên khách hàng VAT",
+        "address": "Địa chỉ",
+        "addressVat": "Địa chỉ VAT",
+        "email": "Email",
+        "businessType": "Loại hình kinh doanh",
+        "accountNumberBank": "Tài khoảng ngân hàng",
+        "taxCode": "Mã số thuế",
+        "debtLimit": "Hạn mức nợ",
+        "debtDate": "Hạn nợ",
+        "priceType": "Loại giá",
+        "isInactive": "Ngưng hoạt động",
+        "note": "Ghi chú",
+        "isVat": "Xuất VAT",
+        "no": "STT",
+        "branchCode": "Mã chi nhánh",
+        "branchName": "Tên chi nhánh",
+        "branchDebt": "Công nợ ban đầu",
+        "fax": "Fax"
+    }
+}

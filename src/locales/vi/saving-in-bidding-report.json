@@ -1,0 +1,32 @@
+{
+  "model": "Báo cáo tiết kiệm trong đấu thầu",
+  "page": {
+    "header": "Báo cáo tiết kiệm trong đấu thầu",
+    "form": {
+      "edit": "Thông tin Báo cáo tiết kiệm trong đấu thầu",
+      "addNew": "Thêm Báo cáo tiết kiệm trong đấu thầu"
+    },
+    "tabs": {
+      "total": "Tổng",
+      "details": "Chi tiết"
+    },
+    "buttons": {},
+    "contractorTypeId": "Loại nhà thầu",
+    "year": "Năm",
+    "projectIdArray": "Dự án",
+    "projectIds": "Dự án"
+  },
+  "fields": {
+    "ordinalNumber": "STT",
+    "projectName": "Tên dự án",
+    "tenderPackageName": "Tên gói thầu",
+    "approvalNumber": "Số quyết định",
+    "approvalDate": "Ngày quyết định",
+    "tenderPackagePrice": "Giá gói thầu",
+    "winningBidPrice": "Giá trúng thầu",
+    "saving": "Tiết kiệm",
+    "savingRatePercent": "Tỷ lệ % tiết kiệm",
+    "projectIdArray": "Dự án",
+    "projectIds": "Dự án"
+  }
+}

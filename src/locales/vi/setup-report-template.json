@@ -1,0 +1,34 @@
+{
+    "model": "Thiết lập biểu mẫu báo cáo",
+    "page": {
+        "header": "Thiết lập biểu mẫu báo cáo",
+        "tabs": {
+            "visibleColumns": "Thiết lập cột hiển thị",
+            "columnConfigure": "Thiết lập thông tin cột"
+        }
+    },
+    "fields": {
+        "templateNo": "Số biểu mẫu",
+        "templateName": "Tên biểu mẫu",
+        "creatorId": "Người lập",
+        "content": "Nội dung",
+        "createDate": "Ngày lập",
+        "usedYears": "Năm sử dụng",
+        "isCommon": "Là mẫu chung",
+        "isActive": "Hoạt động",
+        "commonTemplate": "Mẫu chung",
+        "note": "Ghi chú",
+        "columnConfig": {
+            "caption": "Tên cột",
+            "displayCaption": "Tên cột thay thế",
+            "note": "Ghi chú",
+            "columnType": "Loại",
+            "professionLink": "Phiếu liên kết",
+            "columnToTakeLink": "Cột lấy",
+            "fromDate": "Từ ngày",
+            "toDate": "Đến ngày",
+            "room": "Phòng",
+            "parentName": "Cột cha"
+        }
+    }
+}

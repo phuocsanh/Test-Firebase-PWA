@@ -1,0 +1,18 @@
+{
+  "model": "Quản lý công việc",
+  "page": {
+    "header": "Quản lý công việc",
+    "tabs": {
+      "directive-content": "Quản lý công việc - Nội dung chỉ đạo",
+      "target": "Quản lý công việc - Chỉ tiêu",
+      "task": "Quản lý công việc - Nhiệm vụ",
+      "design-bid-estimation": "Quản lý công việc - Thiết kế, dự toán gói thầu",
+      "other": "Quản lý công việc - Khác",
+      "workManagementDirectiveContent": "Nội dung chỉ đạo",
+      "workManagementTarget": "Chỉ tiêu",
+      "workManagementTask": "Nhiệm vụ",
+      "workManagementDesignBidEstimation": "Thiết kế dự toán gói thầu",
+      "workManagementOther": "Khác"
+    }
+  }
+}

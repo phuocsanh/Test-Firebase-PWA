@@ -1,0 +1,46 @@
+{
+  "model": "Nội dung chỉ đạo",
+  "page": {
+    "header": "Nội dung chỉ đạo",
+    "form": {
+      "edit": "Thông tin nội dung chỉ đạo",
+      "addNew": "Thêm nội dung chỉ đạo"
+    },
+    "tabs": {
+      "directiveFile": "File chỉ đạo"
+    },
+    "completionTypeOptions": {
+      "onTime": "Trong hạn",
+      "overdue": "Trễ hạn"
+    },
+    "buttons": {
+      "closed": "Xác nhận kết thúc",
+      "sentForProcessing": "Gửi xử lý",
+      "reprocessed": "Gửi xử lý lại"
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "note": "Ghi chú",
+    "documentArrivalDate": "Ngày VB đến",
+    "documentCode": "Số VB đến",
+    "documentGroupSymbol": "Ký hiệu VB",
+    "documentGroupId": "Hình thức văn bản",
+    "agencyId": "Cơ quan ban hành",
+    "summaryContent": "Nội dung trích yếu",
+    "directiveContent": "Nội dung chỉ đạo",
+    "deadline": "Thời hạn hoàn thành",
+    "opinionDepartmentIds": "Ý kiến của giám đốc",
+    "directiveContentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "completionType": "Hoàn thành",
+    "statusId": "Trạng thái",
+    "ids": "ids",
+    "sort": "sort",
+    "isSaveTmp": "Lưu tạm",
+    "isClosed": "Xác nhận kết thúc",
+    "isSentForProcessing": "Gửi xử lý",
+    "isReprocessed": "Gửi xử lý lại"
+  }
+}

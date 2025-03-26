@@ -1,0 +1,16 @@
+{
+  "model": "Cơ quan ban hành",
+  "page": {
+    "header": "Cơ quan ban hành",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo cơ quan ban hành"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Cơ quan ban hành",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

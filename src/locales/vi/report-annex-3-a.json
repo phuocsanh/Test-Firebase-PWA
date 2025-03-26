@@ -1,0 +1,71 @@
+{
+  "model": "Báo cáo phụ lục 3a",
+  "page": {
+    "header": "Báo cáo phụ lục 3a",
+    "form": {
+      "edit": "Thông tin Báo cáo phụ lục 3a",
+      "addNew": "Thêm Báo cáo phụ lục 3a",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "overview": "Tổng hợp"
+      }
+    },
+    "buttons": {},
+    "notification": {
+      "warning": {
+        "completionAcceptanceId": "Vui lòng chọn nghiệm thu thực hiện"
+      }
+    }
+  },
+  "fields": {
+    "branchId": "",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "id": "Khóa chính",
+    "projectId": "Dự án",
+    "sumContractValue": "1. Giá trị hợp đồng",
+    "sumAdvancePaymentValueForThePeriod": "2. Giá trị tạm ứng trong kỳ",
+    "sumAdvancePaymentExecution": "3.Thanh toán thực hiện tạm ứng",
+    "sumCompletedVolumeThisPeriod": "4. KLTH kỳ này",
+    "sumAdvancePaymentRecovery": "5. Thanh toán THTU",
+    "sumDisbursementRequestValue": "6. Giá trị đề nghị giải ngân",
+    "sumCumulativeDisbursedValue": "7.Lũy kế giá trị giải ngân",
+    "completionAcceptanceId": "Nghiệm thu",
+    "reservefund": "Dự phòng phí",
+    "note": "Ghi chú",
+    "userCreatedId": "Người lập",
+    "reportAnnex3aTime": "Ngày lập",
+    "reportAnnex3aOverviews": {
+      "id": "Khóa chính",
+      "reportAnnex3aId": "Báo cáo phụ lục 3A",
+      "contractorId": "Nhà thầu",
+      "contractValue": "1. Giá trị hợp đồng (giá trị dự toán được duyệt trong trường hợp thực hiện không thông qua hợp đồng)",
+      "advancePaymentValueForThePeriod": "2. Giá trị tạm ứng còn lại chưa thu hồi đến cuối kỳ trước",
+      "advancePaymentExecution": "3. Số tiền đã thanh toán khối lượng hoàn thành kỳ trước",
+      "completedVolumeThisPeriod": "4. Lũy kế giá trị khối lượng thực hiện đến cuối kỳ này",
+      "advancePaymentRecovery": "5. Thanh toán để thu hồi tạm ứng",
+      "valuePaymentForCompletedVolume": "6. Giá trị đề nghị giải ngân kỳ này - Thanh toán khối lượng hoàn thành",
+      "valueAdvancePayment": "6. Giá trị đề nghị giải ngân kỳ này - tạm ứng",
+      "cumulativePaymentForCompletedVolume": "7. Luỹ kế giá trị giải ngân, trong đó - Thanh toán khối lượng hoàn thành",
+      "cumulativeAdvancePayment": "7. Luỹ kế giá trị giải ngân, trong đó - tạm ứng "
+    },
+    "reportAnnex3aDetails": {
+      "id": "Khóa chính",
+      "reportAnnex3aId": "Báo cáo phụ lục 3A",
+      "constructionTaskId": "Tên công việc",
+      "unitId": "Đơn vị tính",
+      "contractorId": "Nhà thầu",
+      "contractedOrEstimatedQuantity": "Khối lượng theo hợp đồng hoặc dự toán",
+      "cumulativePreviousPeriod": "Lũy kế đến hết kỳ trước",
+      "currentPeriodExecution": "Thực hiện kỳ này",
+      "accumulatedUpToTheEndOfThisPeriod": "Lũy kế đến hết kỳ này",
+      "contractedOrEstimatedPaymentPrice": "Đơn giá thanh toán theo hợp đồng hoặc dự án",
+      "contractedOrEstimatedQuantityTotalAmount": "Khối lượng theo hợp đồng hoặc dự toán - Thành tiền",
+      "cumulativePreviousPeriodTotalAmount": "Lũy kế đến hết kỳ trước - Thành tiền",
+      "currentPeriodExecutionTotalAmount": "Thực hiện kỳ này - Thành tiền",
+      "accumulatedUpToTheEndOfThisPeriodTotalAmount": "Lũy kế đến hết kỳ này - Thành tiền",
+      "note": "Ghi chú"
+    }
+  }
+}

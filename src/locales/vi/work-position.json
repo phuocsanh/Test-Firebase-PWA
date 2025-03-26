@@ -1,0 +1,16 @@
+{
+  "model": "Vị trí làm việc",
+  "page": {
+    "header": "Vị trí làm việc",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo vị trí làm việc"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Vị trí làm việc",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

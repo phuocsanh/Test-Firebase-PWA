@@ -1,0 +1,16 @@
+{
+  "model": "Nhóm dự án",
+  "page": {
+    "header": "Nhóm dự án",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo nhóm dự án"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Nhóm dự án",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Loại vật tư, thiết bị",
+  "page": {
+    "header": "Loại vật tư, thiết bị",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại vật tư, thiết bị"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại vật tư, thiết bị",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

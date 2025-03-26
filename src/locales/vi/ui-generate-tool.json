@@ -1,0 +1,27 @@
+{
+  "model": "Tạo file tự động",
+  "page": {
+    "header": "Tool tạo các tập tin hỗ trợ code UI",
+    "tabs": {
+      "dataTable": "Data table",
+      "form": "Form",
+      "locale": "Locale",
+      "type": "Type",
+      "editable": "Editable data table",
+      "report": "Report"
+    },
+    "buttons": {
+      "getGeneratedCode": "Tạo code (dành cho người muốn tạo file thủ công rồi copy)",
+      "writeCodeToSource": "Tạo code và các file tự động"
+    }
+  },
+  "fields": {
+    "schemaName": "Tên schema",
+    "tableName": "Tên bảng",
+    "tableDetailName": "Tên bảng con"
+  },
+  "message": {
+    "create": "Tạo code tự động cho {{object}} {{status}}",
+    "generateFile": "Tạo code và file tự động cho {{object}} {{status}}"
+  }
+}

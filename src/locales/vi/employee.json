@@ -1,0 +1,123 @@
+{
+  "model": "Nhân sự",
+  "page": {
+    "header": "Nhân sự", 
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới nhân viên",
+      "edit": "Sửa nhân sự",
+      "okLabel": "Đồng ý", 
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    },
+    "tabs":{
+      "generalInfo":"Thông tin chung",
+      "training":"Đào tạo",
+      "borrowingRecord":"Hồ sơ mượn",
+      "leaveDay":"Ngày nghỉ phép",
+      "salaryCalculation":"Thông tin tính lương",
+      "evaluationResult":"Kết quả đánh giá"
+    },
+    "accordion":{
+      "general": "Thông tin chung",
+      "certificate": "Trình độ"
+    }
+  },
+  "fields": {
+    "id":"Thông tin chung",
+    "code":"Mã nhân viên",
+    "departmentId":"Phòng nghiệp vụ",
+    "name":"Họ và tên",
+    "birthday":"Ngày tháng năm sinh",
+    "genderTypeId":"Giới tính",
+    "nationalIdCard":"CCCD",
+    "dateOfIssue":"Ngày cấp",
+    "socialInsuranceNumber":"Số BHXH",
+    "randCode":"Mã số ngạch",
+    "nationality":"Dân tộc",
+    "workPositionId":"Vị trí làm việc",
+    "employeeTypeId":"Loại nhân viên",
+    "expertiseId":"Chuyên môn",
+    "majorId":"Chuyên ngành",
+    "stateManagementId":"QLNN",
+    "politicsId":"Chính trị",
+    "foreignLanguageId":"Ngôn ngữ",
+    "informationTechnologyId":"Tin học",
+    "professionalTrainingId":"Bồi dưỡng nghiệm vụ",
+    "ethnicity":"Dân tộc",
+    "isPartyMember":"Đảng viên",
+    "placeOfBirth":"Nơi sinh",
+    "placeOfOrigin":"Quê quán",
+    "currentAddress":"Nơi ở hiện nay",
+    "startDateEmployment":"Ngày tham gia công tác",
+    "partyAdmissionDate":"Ngày vào Đảng",
+    "officialPartyAdmissionDate":"Ngày vào Đảng (CT)",
+    "numberDaysOff":"Số ngày đã nghỉ",
+    "totalEntitledLeaveDays":"Số ngày được nghỉ",
+    "governmentClassificationResultsId":"KQXL  chính quyền",
+    "isAwardsRecognitionGovernment":"Khen thưởng",
+    "isDisciplineGovernment":"Kỷ luật",
+    "religion":"Tôn giáo",
+    "partyMemberClassificationResultsId":"KQXL Đảng viên",
+    "isAwardsRecognitionPartyMembers":"Khen thưởng",
+    "isDisciplinePartyMember":"Kỹ luật",
+    "positionId":"Chức vụ",
+    "phone":"Số điện thoại",
+    "bankCode":"Tài khoản ngân hàng",
+    "bankName":"Tên ngân hàng",
+    "isActive":"Hoạt động", 
+    "level":"Bậc",
+    "positionAllowanceCoefficient":"Hệ số PC chức vụ",
+    "seniorityBeyondCeilingAllowanceCoefficient":"Hệ số PC thâm niên vượt khung",
+    "seniorityAllowance":"PC thâm niên nghề",
+    "chiefAccountantResponsibilityAllowance":"PC TN công việc KTT",
+    "internshipMentorshipResponsibilityAllowance":"PC TN hướng dẫn tập sự",
+    "fixedTelephoneAllowance":"PC khoán cước điện thoại",
+    "salaryCoefficient":"Hệ số lương",
+    "baseSalary":"Lương cơ bản",
+    "nextSalaryIncreaseTimeline":"Mốc TG nâng lương lần sau",
+    "employeeAnnualEvaluationResultDetails":{
+      "employeeId":"Bảng cha",
+      "year":"Năm",
+      "governmentClassificationResultsId":"Xếp hạng",
+      "isAwardsRecognitionGovernment":"Có khen thưởng",
+      "isDisciplineGovernment":"Kỹ luật",
+      "partyMemberClassificationResultsId":"Xếp hạng",
+      "isAwardsRecognitionPartyMember":"Có khen thưởng",
+      "isDisciplinePartyMember":"Kỷ luật",
+      "note":"Ghi chú",
+      "partyMember":"Đảng viên",
+      "government":"Chính quyền"
+    },
+    
+
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": "Danh sách nhà thầu tham gia thực hiện gói thấu",
+  "page": {
+    "header": "Danh sách nhà thầu tham gia thực hiện gói thấu",
+    "form": {
+      "edit": "Thông tin Danh sách nhà thầu tham gia thực hiện gói thấu",
+      "addNew": "Thêm Danh sách nhà thầu tham gia thực hiện gói thấu"
+    },
+    "tabs": {
+      "total": "Tổng",
+      "details": "Chi tiết"
+    },
+    "buttons": {},
+    "contractorTypeId": "Loại nhà thầu",
+    "year": "Năm"
+  },
+  "total": {
+    "fields": {
+      "ordinalNumber": "STT",
+      "contractorTypeId": "Loại nhà thầu",
+      "contractorTypeName": "Loại nhà thầu",
+      "totalPackageValue": "Tổng giá gói thầu",
+      "totalContractValue": "Tổng giá trị HĐ",
+      "priceDifference": "Chênh lệch",
+      "savingRatePercent": "Tỷ lệ % tiết kiệm",
+      "sumTotalPackageValue": "Tổng Tổng giá gói thầu",
+      "sumTotalContractValue": "Tổng Tổng giá trị HĐ",
+      "sumPriceDifference": "Tổng Chênh lệch",
+      "sumSavingRatePercent": "Tổng Tỷ lệ % tiết kiệm"
+    }
+  },
+  "details": {
+    "fields": {
+      "ordinalNumber": "STT",
+      "budgetFundName": "Ngân sách",
+      "projectName": "Công trình, dự án",
+      "contractorName": "Nhà thầu",
+      "contractSigningDate": "Thời gian ký kết hợp đồng",
+      "tenderTypeName": "Hình thức LCNT",
+      "packageValueVnd": "Giá gói thầu (đồng)",
+      "contractValueVnd": "Giá hợp đồng (đồng)",
+      "priceDifference": "Chênh lệch",
+      "sumPackageValueVnd": "Tổng Giá gói thầu (đồng)",
+      "sumContractValueVnd": "Tổng Giá hợp đồng (đồng)",
+      "sumPriceDifference": "Tổng Chênh lệch"
+    }
+  },
+  "fields": { "contractorTypeId": "Loại nhà thầu" }
+}

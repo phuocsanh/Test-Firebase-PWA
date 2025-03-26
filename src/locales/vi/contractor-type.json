@@ -1,0 +1,16 @@
+{
+  "model": "Loại nhà thầu",
+  "page": {
+    "header": "Loại nhà thầu",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại nhà thầu"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại nhà thầu",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

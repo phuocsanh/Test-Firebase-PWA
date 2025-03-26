@@ -1,0 +1,77 @@
+{
+  "model": "Bảng lương",
+  "page": {
+    "header": "Bảng lương",
+    "selectFromContractWindow": "Danh sách hợp đồng",
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới bảng lương",
+      "edit": "Sửa hợp đồng",
+      "okLabel": "Đồng ý",
+      "buttonContract": "Chọn danh sách hợp đồng",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    }
+  },
+  "fields": { 
+    "salarySheetTime":"Ngày lập",
+    "userCreatedId":"Người lập",
+    "name":"Tên bảng lương",
+    "applicableMonth":"Tháng áp dụng",
+    "toDate":"Từ ngày",
+    "fromDate":"Đến ngày",
+    "applicableYear":"Năm áp dụng",
+    "isActive":"Hoạt động",
+    "note":"Ghi chú",
+    "basicSalary":"Lương cơ sở",
+    "salarySheetDetail":{
+
+      "salarySheetId":"Bảng cha",
+      "employeeId":"Nhân viên",
+      "salaryCoefficient":"Hệ số lương",
+      "positionAllowanceCoefficient":"Hệ số phục cấp chức vụ",
+      "seniorityAllowanceCoefficient":"Hệ số phụ cấp thâm niên",
+      "hazardAllowance":"Phụ cấp độc hại",
+      "professionalSeniorityAllowance":"Phụ cấp thâm niên nghề",
+      "chiefAccountantResponsibilityAllowance":"Phụ cấp trách nhiệm công việc kế toán trưởng",
+      "internshipMentorshipResponsibilityAllowance":"Phụ cấp trách nhiệm hướng dẫn tập sự",
+      "bonus":"Tiền thưởng",
+      "phoneExpense":"Tiền điện thoại",
+      "travelAllowance":"Tiền công tác phí",
+      "scholarshipFund":"Tiền học bổng",
+      "otherAllowance1":"Phụ cấp khác 1",
+      "otherAllowance2":"Phụ cấp khác 2",
+      "otherAllowance3":"Phụ cấp khác 3",
+      "note":"Ghi chú"
+    },
+    
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

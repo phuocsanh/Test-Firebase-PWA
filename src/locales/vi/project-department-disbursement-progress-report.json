@@ -1,0 +1,22 @@
+{
+  "model": "Bảng tiến độ giải ngân phòng QLDA",
+  "page": {
+    "header": "Bảng tiến độ giải ngân phòng QLDA",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Chi tiết",
+      "sum": "Tổng cộng"
+    },
+    "buttons": {},
+    "year": "Năm"
+  },
+  "fields": {
+    "ordinalNumber": "Bảng tiến độ giải ngân phòng QLDA",
+    "noiDung": "Nội dung",
+    "budgetFundCode": "Nguồn ngân sách",
+    "s": {}
+  }
+}

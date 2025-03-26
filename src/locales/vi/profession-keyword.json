@@ -1,0 +1,82 @@
+{
+  "model": "Mẫu in",
+  "page": {
+    "header": "Mẫu in",
+    "description": "Quản lý, tìm kiếm, thiết lập và thêm mẫu in",
+    "form": {
+      "edit": "Chỉnh sửa mẫu in",
+      "addNew": "Thêm mẫu in",
+      "description": "Thực hiện các thay đổi đối với mẫu in tại đây. Nhấp vào lưu khi hoàn tất.",
+      "preview": "Bản xem trước",
+      "keywords": "Xem từ khóa",
+      "keywordList": "Danh sách từ khóa",
+      "keywordDescription": "Danh sách từ khóa theo biểu mẫu tương ứng"
+    },
+    "printType": {
+      "model": "Loại mẫu in",
+      "addNew": "Thêm loại mẫu in",
+      "description": "Tạo thêm loại mẫu in mới tại đây (tính năng giành cho nhà phát triển)"
+    }
+  },
+  "fields": {
+    "branchId": "Chi nhánh áp dụng",
+    "typeName": "Tên mẫu in",
+    "typeId": "ID mẫu in",
+    "type": "Mã mẫu in",
+    "size": "Khổ in",
+    "htmlBody": "String",
+    "isDefault": "Khổ mặc định",
+    "labelName": "Tên từ khóa",
+    "labelKey": "Key từ khóa",
+    "dataField": "Tên trường của từ khóa",
+    "note": "Ghi chú từ khóa",
+    "printTypeName": "Tên mẫu in",
+    "printType": {
+      "code": "Mã mẫu in",
+      "name": "Tên mẫu in",
+      "note": "Ghi chú",
+      "printTypeLabel": {
+        "printTypeId": "",
+        "printLabelId": "",
+        "labelKey": "Key của từ khóa",
+        "labelName": "Từ khóa",
+        "note": "Ghi chú",
+        "dataField": "Tên trường của từ khóa"
+      }
+    }
+  },
+  "dataset": {
+    "size": {
+      "a4": "Khổ A4",
+      "a5": "Khổ A5",
+      "a3": "Khổ A3",
+      "k57": "Khổ K57",
+      "k80": "Khổ K80"
+    },
+    "type": {
+      "quotes": "Báo giá",
+      "orderSupplier": "Đặt hàng nhà cung cấp",
+      "stockIn": "Nhập kho",
+      "transferWarehouse": "Chuyển kho",
+      "printSaleListSelected": "In danh sách phiếu đã chọn",
+      "printSaleListByGroup": "In phiếu xuất hàng tổng hợp theo nhóm khách hàng (chọn nhiều phiếu trong nhóm)",
+      "printSaleListDelivery": "In bảng kê giao hàng (chọn nhiều phiếu trong danh sách)",
+      "printSaleByCar": "In đơn hàng theo xe",
+      "receipts": "Phiếu thu",
+      "payment": "Phiếu chi",
+      "stockOut": "Xuất kho",
+      "stockAdjustment": "Điều chỉnh kho",
+      "salesMcp": "BC doanh số MCP",
+      "customerDebtByGroup": "Công nợ khách hàng theo nhóm",
+      "customerDebt": "Công nợ khách hàng",
+      "customerDebtDetail": "Chi tiết công nợ khách hàng",
+      "supplierDebtByGroup": "Công nợ ncc theo nhóm",
+      "supplierDebt": "Công nợ nhà cung cấp",
+      "supplierDebtDetail": "Chi tiết công nợ ncc",
+      "filterSales": "Trích lọc dữ liệu bán hàng",
+      "stockInFilter": "Trích lọc dữ liệu nhập hàng",
+      "supplierDebtsDetail": "Chi tiết công nợ nhà cung cấp",
+      "customerDebtsDetail": "Chi tiết công nợ khách hàng"
+    }
+  }
+}

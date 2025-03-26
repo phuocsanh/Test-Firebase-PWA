@@ -1,0 +1,40 @@
+{
+  "model": "Lịch làm việc của ban giám đốc",
+  "page": {
+    "header": "Lịch làm việc của ban giám đốc",
+    "form": {
+      "edit": "Chi tiết lịch làm việc của ban giám đốc",
+      "addNew": "Thêm lịch làm việc của ban giám đốc",
+      "tabs": {
+        "detail": "Thông tin chi tiết"
+      }
+    }
+  },
+  "fields": {
+    "branchId": "Chi nhánh",
+    "boardOfDirectorsWorkScheduleTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "note": "Ghi chú",
+    "weekNumber": "Tuần thứ",
+    "fromDate": "Từ ngày",
+    "toDate": "Đến ngày",
+    "boardOfDirectorsWorkScheduleDetails": {
+      "id": "Khóa chính",
+      "boardOfDirectorsWorkScheduleId": "Lịch làm việc của ban giám đốc",
+      "workDate": "Ngày",
+      "session": "Buổi",
+      "sessionOptions": {
+        "morning": "Sáng",
+        "afternoon": "Chiều"
+      },
+      "workTime": "Giờ",
+      "content": "Nội dung",
+      "chairpersonId": "Chủ trì",
+      "departmentIds": "Phòng",
+      "memberIds": "Thành viên",
+      "contentPreparerId": "Người chuẩn bị nội dung",
+      "location": "Địa điểm",
+      "member": "Thành viên tham dự"
+    }
+  }
+}

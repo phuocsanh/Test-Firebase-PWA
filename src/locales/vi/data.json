@@ -1,0 +1,59 @@
+{
+    "saleType": {
+        "wholesales": "Đơn bán sỉ",
+        "retail": "Đơn bán lẻ"
+    },
+    "stockOut": {
+        "notExport": "Chưa xuất",
+        "exporting": "Đang xuất",
+        "exported": "Đã xuất"
+    },
+    "stockIn": {
+        "notImport": "Chưa nhập",
+        "importing": "Đang nhập",
+        "imported": "Đã nhập"
+    },
+    "vehicleDeliveryStatus": {
+        "notDelivery": "Chưa điều xe",
+        "delivering": "Đang điều xe",
+        "delivered": "Đã điều xe"
+    },
+    "receiptType": {
+        "notCollect": "Chưa thu",
+        "collecting": "Đang thu",
+        "collected": "Đã thu"
+    },
+    "roundTotalOrEngine": {
+        "roundTotal": "Số total",
+        "engines": "Số cơ"
+    },
+    "spentStatus": {
+        "unspent": "Chưa chi",
+        "spending": "Đang chi",
+        "spent": "Đã chi"
+    },
+    "approvalType": {
+        "notApprove": "Chưa duyệt",
+        "approved": "Duyệt",
+        "reject": "Không duyệt"
+    },
+    "vehicleDelivery": {
+        "straight": "Điều thẳng",
+        "coordinate": "Điều phối"
+    },
+    "switchToPurchaseStatus": {
+        "notDelivered": "Chưa chuyển",
+        "inProgress": "Đang chuyển",
+        "delivered": "Đã chuyển"
+    },
+    "switchToSaleStatus": {
+        "notDelivered": "Chưa chuyển",
+        "inProgress": "Đang chuyển",
+        "delivered": "Đã chuyển"
+    },
+    "buyerTypes": {
+        "ID": "Số CMND/CCCD",
+        "passport": "Hộ chiếu",
+        "businessLicense": "Giấy phép kinh doanh"
+    }
+}

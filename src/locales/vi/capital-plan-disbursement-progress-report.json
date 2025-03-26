@@ -1,0 +1,26 @@
+{
+  "model": "Báo cáo tiến độ giải ngân kế hoạch vốn",
+  "page": {
+    "header": "Báo cáo tiến độ giải ngân kế hoạch vốn",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {},
+    "year": "Năm ngân sách"
+  },
+  "fields": {
+    "ordinalNumber": "Báo cáo tiến độ giải ngân kế hoạch vốn",
+    "budgetFundId": "Id nguồn vốn",
+    "budgetFundName": "Tên nguồn vốn",
+    "parentId": "Thuộc nguồn vốn",
+    "totalProject": "Tổng số công trình ",
+    "totalPlannedCapitalMillionVnd": "Tổng kế hoạch vốn (triệu đồng) ",
+    "cumulativeDisbursedValueMillionVnd": "Lũy kế giá trị giải ngân (triệu đồng) ",
+    "disbursementRatePercent": "Tỷ lệ (%) ",
+    "s": {}
+  }
+}

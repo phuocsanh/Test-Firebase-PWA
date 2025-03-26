@@ -1,0 +1,46 @@
+{
+  "model": "Nhà cung cấp",
+  "page": {
+    "header": "Nhà cung cấp",
+    "description": "Quản lý, tìm kiếm, thiết lập và thêm  nhà cung cấp",
+    "form": {
+      "edit": "Chỉnh sửa nhà cung cấp",
+      "addNew": "Thêm nhà cung cấp",
+      "description": "Thực hiện các thay đổi đối với  nhà cung cấp tại đây. Nhấp vào lưu khi hoàn tất.",
+      "tabs": {
+        "info": "Thông tin",
+        "currentDebts": "Nợ ban đầu chi nhánh"
+      }
+    }
+  },
+  "fields": {
+    "code": "Mã nhà cung cấp",
+    "name": "Tên nhà cung cấp",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "note": "Ghi chú",
+    "isInactive": "Ngừng hoạt động",
+    "taxCode": "Mã số thuế",
+    "status": "Trạng thái",
+    "supplierGroupId": "Nhóm nhà cung cấp",
+    "productGroupId": "Loại hàng",
+    "initialDebt": "Công nợ ban đầu",
+    "email": "Email",
+    "fax": "Fax",
+    "industry": "Ngành hàng",
+    "priceType": "Loại giá",
+    "supplierCurrentDebts": {
+      "currentDebt": "Công nợ hiện tại",
+      "branchName": "Chi nhánh",
+      "originalDebt": "Công nợ ban đầu"
+    }
+  },
+  "description": {
+    "name": "Đây là tên  nhà cung cấp",
+    "isActive": "Dùng để quản lý xem trạng thái hoạt động của  này"
+  },
+  "dialog": {
+    "text1": "Thông tin ",
+    "text2": "Tính năng"
+  }
+}

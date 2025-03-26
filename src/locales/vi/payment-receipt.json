@@ -1,0 +1,41 @@
+{
+  "model": "Chứng từ thanh toán",
+  "page": {
+    "header": "Chứng từ thanh toán",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Thêm chứng từ thanh toán"
+    }
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "paymentReceiptTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "code": "Mã phiếu",
+    "numberOfCode": "Số phiếu",
+    "budgetYear": "Năm ngân sách",
+    "projectId": "Dự án",
+    "contractId": "Số hợp đồng",
+    "contractorId": "Nhà thầu",
+    "capitalIncreasePlanDetailId": "Mã nguồn NS",
+    "capitalIncreasePlanDetailIdTooltip": "Mã nguồn ngân sách",
+    "programCode": "Mã chương",
+    "budgetSourceCodeId": "Id Mã nguồn NS",
+    "sectorCode": "Mã NDKT",
+    "sectorCodeTooltip": "Mã nội dung kinh tế",
+    "totalAmount": "Số tiền",
+    "note": "Ghi chú",
+    "ids": "ids",
+    "sort": "sort",
+    "paymentType": "Loại thanh toán",
+    "s": {}
+  },
+  "options": {
+    "paymentTypes": {
+      "payment": "Thanh toán",
+      "advancePayment": "Tạm ứng",
+      "recoveryOfAdvancePayment": "Thu hồi tạm ứng"
+    }
+  }
+}

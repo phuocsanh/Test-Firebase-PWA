@@ -1,0 +1,39 @@
+{
+  "model": "Ghi tăng tài sản",
+  "page": {
+    "header": "Ghi tăng tài sản",
+    "form": {
+      "edit": "Thông tin ghi tăng tài sản",
+      "addNew": "Thêm ghi tăng tài sản"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết",
+      "itemsRecordManagement": "File đính kèm"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "note": "Ghi chú",
+    "code": "Mã phiếu",
+    "userCreatedId": "Người lập",
+    "projectId": "Dự án",
+    "assetTypeId": "Loại tài sản",
+    "totalAmount": "Tổng tiền",
+    "assetIncrementTime": "Ngày lập",
+    "assetIncrementDetails": {
+      "id": "Khóa chính",
+      "assetIncrementId": "Ghi tăng tài sản",
+      "assetId": "Tên tài sản",
+      "unitId": "Đơn vị tính",
+      "quantity": "Số lượng",
+      "price": "Đơn giá",
+      "totalOriginalValue": "Tổng nguyên giá",
+      "putIntoUseDate": "Ngày đưa tài sản vào sử dụng",
+      "investmentFundingTypeId": "Loại vốn đầu tư hình thành tài sản",
+      "entityName": "Đơn vị tiếp nhận sử dụng",
+      "note": "Ghi chú"
+    }
+  }
+}

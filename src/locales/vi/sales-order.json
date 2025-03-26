@@ -1,0 +1,90 @@
+{
+  "model": "Đơn hàng",
+  "page": {
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "saleTime": "Ngày lập",
+    "staffCreateId": "Nhân viên lập",
+    "totalAmountProduct": "Tổng thành tiền",
+    "note": "Ghi chú",
+    "ids": "ids",
+    "sort": "sort",
+    "numberOfCode": "Số phiếu",
+    "customerId": "Khách hàng",
+    "branchId": "Chi nhánh",
+    "paymentTypeId": "Hình thức T.T",
+    "shippingFee": "Phí vận chuyển ",
+    "percentDiscount": "% CK",
+    "cashDiscount": "Tiền CK ",
+    "percentVat": "% VAT",
+    "cashVat": "Tiền VAT ",
+    "totalAmount": "Tổng tiền",
+    "payment": "Tiền thu ",
+    "reductionAmount": "Tiền giảm ",
+    "accountFundId": "Quỹ thu",
+    "receiptsAndExpensesContentId": "Nội dung thu",
+    "orderCustomerId": "Order",
+    "isSaveTemp": "Lưu tạm",
+    "customerNameRetail": "Họ và tên",
+    "customerPhoneRetail": "Số điện thoại",
+    "customerAddressRetail": "Địa chỉ",
+    "contactDelivery": "Người liên hệ nhận hàng",
+    "addressDelivery": "Địa điểm giao hàng",
+    "paymentReceipts": "Tiền đã thu",
+    "receiptsType": "2 Đã thu 1 Đang thu 0 Chưa thu (mặc định)",
+    "isReceipts": "Có phát sinh thu tiền",
+    "roomTableId": "Sảnh/Phòng/Bàn",
+    "staffServiceId": "Nhân viên",
+    "notePayment": "Ghi chú thanh toán",
+    "receiptsAndExpensesContentPartyId": "Nội dung tiệc",
+    "contentPartyDetail": "Chi tiết nội dung tiệc",
+    "partyDate": "Ngày tổ chức",
+    "partyPlace": "Khu vực đãi tiệc",
+    "timesOfTheDayId": "Buổi",
+    "linkAttachFile": "Đính kèm file",
+    "noteTabStaff": "Ghi chú nhân viên",
+    "noteDeliverDrinkName": "Ghi chú giao thức uống",
+    "orderOrParty": "1: order ;2: Phiếu đặt tiệc",
+    "moneyGuest": "Tiền khách đưa ",
+    "moneyTips": "Tiền tip",
+    "guarantorId": "N.B.Lãnh",
+    "remaining": "Còn lại phải thu",
+    "refund": "Tiền trả khách",
+    "remains": "Còn lại",
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

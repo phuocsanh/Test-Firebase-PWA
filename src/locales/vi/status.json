@@ -1,0 +1,17 @@
+{
+  "model": "Trạng thái",
+  "page": {
+    "header": "Trạng thái",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo trạng thái"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Trạng thái",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "colorCode":"Mã màu"
+  }
+}

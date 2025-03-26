@@ -1,0 +1,57 @@
+{
+  "projectTitle": "Dự án: ",
+  "project": {
+    "newProject": "Có dự án mới"
+  },
+  "designTaskManagement": {
+    "new": "Mới - Quản lý công việc thiết kế",
+    "info": "Cập nhật - Quản lý công việc thiết kế",
+    "content": "Nội dung - Ý kiến: ",
+    "addNew": "Được giao dự án: ",
+    "departmentProjectHeadReject": "TP.QLDA từ chối (nội dung - ý kiến) dự án:",
+    "departmentPlanningHeadReject": "TP.KH-CL từ chối (nội dung - ý kiến) dự án: "
+  },
+  "contractTaskManagement": {
+    "new": "Mới - Quản lý công việc hợp đồng",
+    "info": "Cập nhật - Quản lý công việc hợp đồng",
+    "content": "Nội dung - Ý kiến: ",
+    "addNew": "Được giao dự án: ",
+    "departmentProjectHeadReject": "TP.QLDA từ chối (nội dung - ý kiến) dự án:",
+    "departmentFinanceHeadReject": "TP.TC-TH từ chối (nội dung - ý kiến) dự án:",
+    "departmentPlanningHeadReject": "TP.KH-CL từ chối (nội dung - ý kiến) dự án:"
+  },
+  "overtimeRegistration": {
+    "newForward": "Có yêu cầu duyệt Đăng ký làm thêm giờ mới",
+    "newApprovalForward": "Có yêu cầu duyệt Đăng ký làm thêm giờ mới"
+  },
+  "boardOfDirectorsWorkSchedule": {
+    "newSchedule": "Mới - Lịch làm việc của ban giám đốc"
+  },
+  "directiveContent": {
+    "new": "Mới - Nội dung chỉ đạo",
+    "number": "Số VB đến: "
+  },
+  "directiveTask": {
+    "new": "Mới - Nhiệm vụ"
+  },
+  "directiveTarget": {
+    "new": "Mới - Chỉ tiêu"
+  },
+  "workManagementTask": {
+    "info": "Cập nhật - QLCV-Nhiệm vụ"
+  },
+  "workManagementTarget": {
+    "info": "Cập nhật - QLCV-Chỉ tiêu"
+  },
+  "workManagementDesignBidEstimation": {
+    "new": "Mới - QLCV-Thiết kế, dự toán gói thầu",
+    "info": "Cập nhật - QLCV-Thiết kế, dự toán gói thầu"
+  },
+  "workManagementOther": {
+    "new": "Mới - QLCV-Khác",
+    "info": "Cập nhật - QLCV-Khác"
+  },
+  "workManagementContent": {
+    "info": "Cập nhật - QLCV-Nội dung chỉ đạo"
+  }
+}

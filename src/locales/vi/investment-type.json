@@ -1,0 +1,23 @@
+{
+  "model": "Loại hình đầu tư",
+  "page": {
+    "header": "Loại hình đầu tư",
+    "form": {
+      "edit": "Sửa loại hình đầu tư",
+      "addNew": "Tạo mới loại hình đầu tư"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại hình đầu tư",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "error": {
+      "code_invalid": "không dấu, không khoảng trống, không ký tự đặc biệt."
+    }
+  }
+}

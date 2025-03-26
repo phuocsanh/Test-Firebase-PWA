@@ -1,0 +1,49 @@
+{
+  "model": "Tổng mức đầu tư điều chỉnh",
+  "page": {
+    "header": "Tổng mức đầu tư điều chỉnh",
+    "form": {
+      "edit": "Thông tin Tổng mức đầu tư điều chỉnh",
+      "addNew": "Thêm Tổng mức đầu tư điều chỉnh"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "projectId": "Dự án",
+    "userCreatedId": "Người lập",
+    "adjustedInvestmentTime": "Ngày lập",
+    "ids": "ids",
+    "sort": "sort",
+    "note": "Ghi chú",
+    "totalPostTaxValue": "Tổng mức đầu tư điều chỉnh",
+    "totalPostTaxValueShort": "Tổng mức ĐTĐC",
+    "documentCode": "Số văn bản",
+    "signingDate": "Ngày ký",
+    "signerId": "Người ký",
+    "statusId": "Trạng thái",
+    "approvalProcessId": "Quy trình duyệt",
+    "adjustedInvestmentDetails": {
+      "id": "Khóa chính",
+      "adjustedInvestmentId": "Tổng mức đầu tư điều chỉnh",
+      "costItemId": "Nội dung chi phí",
+      "symbol": "Ký hiệu",
+      "percentageRate": "Tỉ lệ %",
+      "calculationMethod": "Cách tính",
+      "preTaxValue": "Giá trị trước thuế",
+      "vatTax": "Thuế CTCT (8%)",
+      "postTaxValue": "Giá trị sau thuế",
+      "vat": "% Thuế CTCT"
+    },
+    "adjustedInvestmentDetailsSummaries": {
+      "costItemTypeId": "Nội dung chi phí",
+      "costItemValue": "Giá trị"
+    }
+  }
+}

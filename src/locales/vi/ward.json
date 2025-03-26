@@ -1,0 +1,17 @@
+{
+  "model": "Phường, xã, thị trấn",
+  "page": {
+    "header": "Phường, xã, thị trấn",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo phường, xã, thị trấn"
+    }
+  },
+  "fields": {
+    "districtId": "Quận, huyện",
+    "code": "Mã",
+    "name": "Phường, xã, thị trấn",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

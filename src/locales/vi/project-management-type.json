@@ -1,0 +1,16 @@
+{
+  "model": "Hình thức quản lý dự án",
+  "page": {
+    "header": "Hình thức quản lý dự án",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo hình thức quản lý dự án"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Hình thức quản lý dự án",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Hình thức đầu tư",
+  "page": {
+    "header": "Hình thức đầu tư",
+    "form": {
+      "edit": "Sửa hình thức đầu tư",
+      "addNew": "Tạo mới hình thức đầu tư"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Hình thức đầu tư",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "error": {
+      "code_invalid": "không dấu, không khoảng trống, không ký tự đặc biệt."
+    }
+  }
+}

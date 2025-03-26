@@ -1,0 +1,16 @@
+{
+  "model": "Chuyên ngành",
+  "page": {
+    "header": "Chuyên ngành",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo chuyên ngành"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Chuyên ngành",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

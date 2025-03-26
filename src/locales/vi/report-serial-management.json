@@ -1,0 +1,28 @@
+{
+  "model": "Quản lý cho số báo cáo",
+  "page": {
+    "header": "Quản lý cho số báo cáo",
+    "form": {
+      "edit": "Thông tin Quản lý cho số báo cáo",
+      "addNew": "Thêm Quản lý cho số báo cáo"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "documentNumber": "Số văn bản",
+    "documentContent": "Nội dung văn bản",
+    "issueDate": "Ngày phát hành",
+    "receivingDepartmentId": "Phòng nhận",
+    "numberRequesterId": "Người lấy số",
+    "requestingOfficerId": "Cán bộ xin",
+    "userCreatedId": "Người lập",
+    "reportSerialManagementTime": "Ngày lập",
+    "note": "Ghi chú",
+    "s": {}
+  }
+}

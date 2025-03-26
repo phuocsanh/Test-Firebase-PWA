@@ -1,0 +1,31 @@
+{
+  "model": "Thanh lý hợp đồng",
+  "page": {
+    "header": "Thanh lý hợp đồng",
+    "form": {
+      "edit": "Thông tin Thanh lý hợp đồng",
+      "addNew": "Thêm Thanh lý hợp đồng"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "ids": "ids",
+    "id": "Khóa chính",
+    "contractId": "Hợp đồng",
+    "contractCode": "Hợp đồng",
+    "contractValue": "Giá trị hợp đồng",
+    "finalSettlementValue": "Giá trị quyết toán",
+    "amountPaidByAToB": "Giá trị bên A thanh toán cho bên B",
+    "remainingAmountAToB": "Giá trị bên A còn phải thanh toán cho bên B",
+    "projectId": "Tên dự án",
+    "contractSettlementTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "s": {}
+  }
+}

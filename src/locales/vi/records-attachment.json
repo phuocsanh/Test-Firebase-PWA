@@ -1,0 +1,28 @@
+{
+  "model": "Hồ sơ đính kèm",
+  "page": {
+    "form": {
+      "files": {
+        "title": "Chi tiết hồ sơ văn bản",
+        "detail": "Thông tin chi tiết"
+      }
+    }
+  },
+  "fields": {
+    "projectId": "Dự án",
+    "projectid": "Dự án",
+    "groupDocId": "Loại văn bản",
+    "noDoc": "Số văn bản",
+    "dateCreate": "Ngày tạo hồ sơ",
+    "content": "Nội dung",
+    "note": "Ghi chú",
+    "agencyId": "Cơ quan ban hành",
+    "typeUpload": "Loại upload",
+    "itemFile": {
+      "typeFileId": "Loại tập tin",
+      "name": "Tên tập tin",
+      "fileName": "Đính kèm file",
+      "note": "Ghi chú"
+    }
+  }
+}

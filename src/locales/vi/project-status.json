@@ -1,0 +1,16 @@
+{
+  "model": "Tình trạng dự án",
+  "page": {
+    "header": "Tình trạng dự án",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo tình trạng dự án"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tình trạng dự án",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

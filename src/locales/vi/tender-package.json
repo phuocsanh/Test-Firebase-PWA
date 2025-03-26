@@ -1,0 +1,81 @@
+{
+  "model": "Gói thầu",
+  "page": {
+    "header": "Gói thầu",
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới gói thầu",
+      "edit": "Sửa gói thầu",
+      "buttonContractorSelectionPlan": "Chọn Kế hoạch lựa chọn nhà thầu",
+      "nextLabel": "Tiếp theo",
+      "prevLabel": "Quay lại",
+      "okLabel": "Đồng ý",
+      "tabs": {
+        "attachment": "Hồ sơ đính kèm"
+      }
+    },
+    "selectFromContractorSelectionPlanWindow": {
+      "title1": "Danh sách kế hoạch lựa chọn nhà thầu",
+      "title2": "Chi tiết danh sách lựa chọn nhà thầu"
+    }
+  },
+  "fields": {
+    "id": "Id",
+    "projectId": "Dự án",
+    "costItemId": "Khoản mục chi phí",
+    "contractorId": "Nhà thầu",
+    "contractTypeId": "Loại hợp đồng",
+    "tenderPackageName": "Tên gói thầu",
+    "tenderTypeId": "Hình thức LCNT",
+    "contractExecutionTime": "Thời gian thực hiện HĐ",
+    "tenderPackagePrice": "Giá gói thầu",
+    "biddingMethodId": "Phương thức LCNT",
+    "tenderPackageTime": "Ngày lập",
+    "winningBidPrice": "Giá trúng thầu",
+    "approvalDate": "Ngày QĐ phê duyệt",
+    "userCreatedId": "Người lập",
+    "inPhase": "Thuộc giai đoạn",
+    "approvalNumber": "Số QĐ phê duyệt",
+    "note": "Ghi chú",
+    "code": "Mã phiếu",
+    "contractorSelectionPlanId": "Thuộc KH LCNT",
+    "statusId": "Trạng thái",
+    "planNumber": "Số kế hoạch",
+    "evaluationDocumentNumber": "Số VB thẩm định",
+    "planName": "Tên kế hoạch",
+    "contractorSelectionPlanTime": "Ngày lập",
+    "price": "Giá gói thầu",
+    "startTimeContractorSelectionProcess": "Thời gian tổ chức lựa chọn nhà thầu",
+    "timeContractorSelectionProcess": "Thời gian bắt đầu tổ chức lựa chọn nhà thầu",
+    "totalAmount": "Tổng giá trị",
+    "numberOfTenderPackages": "Số lượng gói thầu",
+    "noteDetail": "Tóm tắc công việc chính của gói thầu",
+    "biddingSectorId": "Lĩnh vực đấu thầu",
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

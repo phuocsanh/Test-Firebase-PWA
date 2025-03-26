@@ -1,0 +1,21 @@
+{
+  "model": "Chỉ tiêu, nhiệm vụ – Nội dung chỉ đạo – Tổng hợp",
+  "page": {
+    "header": "",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "ordinalNumber": "STT",
+    "annualDirectiveContent": "Nội dung chỉ đạo",
+    "approvedConfirmed": "Đã duyệt/xác nhận",
+    "pendingApprovalConfirmation": "Chưa duyệt/xác nhận",
+    "year": "Năm thống kê"
+  }
+}

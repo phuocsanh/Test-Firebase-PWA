@@ -1,0 +1,34 @@
+{
+  "model": "Nhiệm vụ",
+  "page": {
+    "header": "Nhiệm vụ",
+    "form": {
+      "addNew": "Tạo mới nhiệm vụ",
+      "edit": "Chỉnh sửa nhiệm vụ",
+      "description": "Cập nhật hoặc tạo mới nhiệm vụ",
+      "tabs": {
+        "attachment": "File nhiệm vụ"
+      }
+    },
+    "buttons": {
+      "send": "Gửi nhiệm vụ"
+    }
+  },
+  "fields": {
+    "id": "Mã nhiệm vụ",
+    "name": "Tên nhiệm vụ",
+    "taskTime": "Ngày lập",
+    "taskDeadline": "Thời hạn nhiệm vụ",
+    "statusId": "Trạng thái",
+    "userCreatedId": "Người lập",
+    "responsibleUserId": "Cá nhân phụ trách",
+    "departmentId": "Phòng",
+    "completionType": "Hoàn thành",
+    "progress": "Tiến độ thực hiện",
+    "note": "Ghi chú",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "isSaveTmp": "Lưu tạm"
+  }
+}

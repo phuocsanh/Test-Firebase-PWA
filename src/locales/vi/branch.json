@@ -1,0 +1,22 @@
+{
+    "model": "Chi nhánh",
+    "page": {
+        "header": "Chi nhánh",
+        "description": "Quản lý thông tin danh sách chi nhánh với các thông tin tổng quan",
+        "form": {
+            "edit": "Chỉnh sửa chi nhánh",
+            "addNew": "Thêm mới chi nhánh",
+            "description": "Quản lý thông tin chi nhánh với việc thêm mới và cập nhật"
+        }
+    },
+    "fields": {
+        "code": "Mã chi nhánh",
+        "name": "Tên chi nhánh",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "description": "Ghi chú",
+        "status": "Trạng thái",
+        "isInactive": "Ngưng hoạt động",
+        "isDefault": "Mặc định"
+    }
+}

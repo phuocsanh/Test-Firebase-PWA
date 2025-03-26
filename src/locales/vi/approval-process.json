@@ -1,0 +1,37 @@
+{
+  "model": "Thiết lập quy trình duyệt",
+  "page": {
+    "header": "Thiết lập quy trình duyệt",
+    "form": {
+      "edit": "Sửa thiết lập quy trình duyệt",
+      "addNew": "Tạo mới thiết lập quy trình duyệt"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "code": "Mã quy trình",
+    "name": "Tên quy trình",
+    "approvalProcessTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "note": "Ghi chú",
+    "ids": "ids",
+    "sort": "sort",
+    "approvalProcessDetails": {
+      "id": "Khóa chính",
+      "approvalProcessId": "Thiết lập quy trình duyệt",
+      "positionId": "Chức vụ",
+      "approveStatusId": "Trạng thái khi đồng ý",
+      "forwardStatusId": "Trạng thái khi chuyển tiếp",
+      "step": "Bước",
+      "returnStep": "Bước quay lại",
+      "declineStatusId": "Trạng thái khi từ chối",
+      "note": "Ghi chú"
+    }
+  }
+}

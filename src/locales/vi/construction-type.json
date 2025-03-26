@@ -1,0 +1,23 @@
+{
+  "model": "Loại công trình",
+  "page": {
+    "header": "Loại công trình",
+    "form": {
+      "edit": "Sửa loại công trình",
+      "addNew": "Tạo mới loại công trình"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại công trình",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "error": {
+      "code_invalid": "không dấu, không khoảng trống, không ký tự đặc biệt."
+    }
+  }
+}

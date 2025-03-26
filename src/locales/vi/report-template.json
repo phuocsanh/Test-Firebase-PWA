@@ -1,0 +1,65 @@
+{
+    "model": "Thiết lập biểu mẫu báo cáo",
+    "page": {
+        "header": "Thiết lập biểu mẫu báo cáo",
+        "description": "Quản lý thông tin danh sách biểu mẫu báo cáo với các thông tin tổng quan",
+        "form": {
+            "edit": "Sửa biểu mẫu báo cáo",
+            "addNew": "Thêm biểu mẫu báo cáo"
+        },
+        "columnTypes": {
+            "enteredByStaff": "Cán bộ nhập",
+            "default": "Mặc định",
+            "byProject": "Theo dự án",
+            "groupingColumn": "Cột để nhóm",
+            "formula": "Công thức",
+            "business": "Nghiệp vụ"
+        },
+        "valueTypes": {
+            "number": "Kiểu số",
+            "date": "Kiểu ngày",
+            "string": "Kiểu văn bản"
+        },
+        "tabs": {
+            "visibleColumns": "Thiết lập thông tin cột",
+            "reportTemplateDetails": "Thiết lập thông tin cột"
+        }
+    },
+    "fields": {
+        "isActive": "Hoạt động",
+        "id": "Khóa chính",
+        "reportTemplateTime": "Ngày lập",
+        "userCreatedId": "Người lập",
+        "code": "Mã phiếu",
+        "note": "Ghi chú",
+        "numberOfCode": "Số biểu mẫu",
+        "name": "Tên biểu mẫu",
+        "ids": "ids",
+        "sort": "sort",
+        "content": "Nội dung",
+        "usageYear": "Năm sử dụng",
+        "isReportTemplateBase": "Là mẫu chung",
+        "reportTemplateBaseId": "Theo mẫu chung",
+        "reportTemplateDetails": {
+            "id": "Khóa chính",
+            "caption": "Tên cột",
+            "displayCaption": "Tên hiển thị",
+            "nameField": "Tên trường",
+            "note": "Ghi chú",
+            "columnType": "Loại",
+            "refId": "Phiếu liên kết",
+            "columnFieldToTake": "Cột lấy",
+            "fromDate": "Từ ngày",
+            "toDate": "Đến ngày",
+            "departmentId": "Phòng",
+            "parentId": "Thuộc cột",
+            "valueType": "Loại giá trị",
+            "formula": "Công thức"
+        }
+    },
+    "profession": {
+        "workManagementDirectiveContent": "Quản lý công việc - Nội dung chỉ đạo",
+        "workManagementTask": "Quản lý công việc - nhiệm vụ",
+        "capitalIncreasePlan": "Kế hoạch giao vốn"
+    }
+}

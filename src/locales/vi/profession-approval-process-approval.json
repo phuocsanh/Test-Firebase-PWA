@@ -1,0 +1,22 @@
+{
+  "model": "Phê duyệt",
+  "page": {
+    "header": "Phê duyệt",
+    "secondHeader": "Chuyển tiếp"
+  },
+  "form": {
+    "secondTitle": "Chuyển tiếp"
+  },
+  "fields": {
+    "professionApprovalProcessId": "Nghiệp vụ duyệt",
+    "currentStep": "Bước hiện tại",
+    "requesterId": "Người yêu cầu",
+    "approveDeadline": "Hạn phê duyệt",
+    "note": "Ghi chú",
+    "isApprove": "Đồng ý/Từ chối",
+    "comment": "Nhận xét",
+    "approverId": "Người duyệt",
+    "approveStatusId": "Trạng thái khi đồng ý",
+    "declineStatusId": "Trạng thái khi từ chối"
+  }
+}

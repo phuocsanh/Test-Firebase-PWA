@@ -1,0 +1,16 @@
+{
+  "model": "Loại tài sản",
+  "page": {
+    "header": "Loại tài sản",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại tài sản"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại tài sản",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

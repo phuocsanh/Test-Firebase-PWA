@@ -1,0 +1,18 @@
+{
+  "model": "Cơ sở đào tạo",
+  "page": {
+    "header": "Cơ sở đào tạo",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo cơ sở đào tạo"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Cơ sở đào tạo",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

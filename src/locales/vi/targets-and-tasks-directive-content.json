@@ -1,0 +1,21 @@
+{
+  "model": "Chỉ tiêu, nhiệm vụ – Nội dung chỉ đạo",
+  "page": {
+    "header": "",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "annualTaskListStatistics": "Bảng thống kê danh sách nhiệm vụ năm",
+      "annual-task-list-statistics": "Danh sách nhiệm vụ",
+      "yearlySummary": "Năm",
+      "yearly-summary": "Năm",
+      "summaryTargetsTasksLastSixMonths": "Tiến độ thực hiện 6 tháng cuối năm",
+      "summary-targets-tasks-last-six-months": "Tiến độ thực hiện 6 tháng cuối năm",
+      "summary-targets-tasks-first-six-months": "Tiến độ thực hiện 6 tháng đầu năm",
+      "summaryTargetsTasksFirstSixMonths": "Tiến độ thực hiện 6 tháng đầu năm"
+    },
+    "buttons": {}
+  }
+}

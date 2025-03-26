@@ -1,0 +1,78 @@
+{
+  "model": "Hợp đồng",
+  "page": {
+    "header": "Hợp đồng",
+    "selectFromTenderPackageWindow": "Danh sách gói thầu",
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới hợp đồng",
+      "edit": "Sửa hợp đồng",
+      "okLabel": "Đồng ý",
+      "buttonTenderPackage": "Chọn danh sách gói thầu",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    }
+  },
+  "fields": {
+    "projectId": "Dự án",
+    "code": "Mã hợp đồng",
+    "contractNumber": "Số hợp đồng",
+    "contractorId": "Đơn vị thực hiện",
+    "subContractorId": "Thầu phụ",
+    "liquidationDate": "Ngày thanh lý",
+    "tenderPackageId": "Thuộc gói thầu",
+    "userCreatedId": "Người lập",
+    "contractTime": "Ngày lập",
+    "acceptanceDate": "Ngày nghiệm thu",
+    "signingDate": "Ngày ký",
+    "implementationDate": "Ngày thực hiện",
+    "advancePaymentGuaranteeExpiryDate": "Ngày hết hạn BLTU",
+    "contractPenaltyRate": "Tỉ lệ sử phạt hđ (%)",
+    "contractGuaranteeExpiryDate": "Ngày hết hạn BLHĐ",
+    "expectedCompletionDate": "Ngày kết thúc dự kiến",
+    "contractExecutionTime": "Số ngày thực hiện HĐ",
+    "unexpectedCostPct": "Dự phòng phát sinh (%)",
+    "unexpectedCost": "Dự phòng phát sinh",
+    "totalAmount": "Tổng tiền",
+    "totalAmountDetail": "Thành tiền",
+    "contractAmount": "Tổng giá trị hợp đồng",
+    "statusId": "Trạng thái",
+    "note": "Ghi chú",
+    "contractName": "Tên hợp đồng",
+    "costItemId": "Khoản mục chi phí",
+    "tenderTypeId": "Hình thức lựa chọn nhà thầu",
+    "contractTypeId": "Loại hợp đồng",
+    "constructionTaskId": "Tên công việc",
+    "unitId": "Đơn vị tính",
+    "quantity": "Khối lượng",
+    "price": "Đơn giá",
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Loại điều chỉnh PLHĐ",
+  "page": {
+    "header": "Loại điều chỉnh PLHĐ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại điều chỉnh PLHĐ"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại điều chỉnh PLHĐ",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

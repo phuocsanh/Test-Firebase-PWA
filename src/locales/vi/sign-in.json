@@ -1,0 +1,14 @@
+{
+  "model": "Đăng nhập",
+  "userName": "Tài khoản",
+  "password": "Mật khẩu",
+  "remember": "Ghi nhớ",
+  "forgotPassword": "Quên mật khẩu",
+  "signIn": "Đăng nhập",
+  "register": "Đăng ký",
+  "doNotHaveAnAccount": "Bạn chưa có tài khoản?",
+  "signInSuccess": "Đăng nhập thành công",
+  "incorrectPassword": "Sai mật khẩu, vui lòng kiểm tra lại",
+  "userNotExist": "Tài khoản không tồn tại",
+  "authenticating": "Hệ thống đang xác thực, vui lòng đợi trong giây lát..."
+}

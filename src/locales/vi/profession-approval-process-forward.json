@@ -1,0 +1,21 @@
+{
+  "model": "Chuyển tiếp",
+  "page": {
+    "header": "Chuyển tiếp"
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Nhóm dự án",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "professionApprovalProcessId": "Nghiệp vụ duyệt",
+    "currentStep": "Bước hiện tại",
+    "requesterId": "Người yêu cầu",
+    "approveDeadline": "Hạn phê duyệt",
+    "isApprove": "Đồng ý/Từ chối",
+    "comment": "Nhận xét",
+    "approverId": "Người duyệt",
+    "approveStatusId": "Trạng thái khi đồng ý",
+    "declineStatusId": "Trạng thái khi từ chối"
+  }
+}

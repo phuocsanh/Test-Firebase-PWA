@@ -1,0 +1,39 @@
+{
+  "model": "Thống kê tình hình công nợ dự án",
+  "page": {
+    "header": "Thống kê tình hình công nợ dự án",
+    "form": {
+      "edit": "Thông tin Thống kê tình hình công nợ dự án",
+      "addNew": "Thêm Thống kê tình hình công nợ dự án"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "contractorName": "Tên cá nhân, đơn vị thực hiện",
+    "costItemName": "Nội dung công việc, hợp đồng thực hiện",
+    "proposedSettlementValue": "Giá trị đề nghị quyết toán",
+    "disbursedCapital": "Vốn đã giải ngân",
+    "payableAmount": "Phải trả",
+    "receivableAmount": "Phải thu",
+    "note": "Ghi chú",
+    "projectId": "Dự án",
+    "debtSection": "Công nợ đến ngày khóa sổ lập báo cáo quyết toán",
+    "code": "Mã phiếu",
+    "costItemCode": "Mã công việc",
+    "contractorCode": "Mã nhà thầu",
+    "dateBill": "Ngày lập phiếu"
+  },
+  "summary": {
+    "code": "Mã phiếu",
+    "contractorName": "Tên cá nhân, đơn vị thực hiện",
+    "costItemName": "Nội dung công việc, hợp đồng thực hiện",
+    "total": "Tổng cộng",
+    "proposedSettlementValue": "Tổng giá trị đề nghị quyết toán",
+    "disbursedCapital": "Tổng vốn đã giải ngân",
+    "payableAmount": "Tổng phải trả",
+    "receivableAmount": "Tổng phải thu"
+  }
+}

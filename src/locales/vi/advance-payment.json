@@ -1,0 +1,44 @@
+{
+  "model": "Báo cáo tình hình tạm ứng",
+  "page": {
+    "header": "Báo cáo tình hình tạm ứng",
+    "form": {
+      "edit": "Thông tin Báo cáo tình hình tạm ứng",
+      "addNew": "Thêm Báo cáo tình hình tạm ứng",
+
+      "tabs": {
+        "detail": "Thông tin chi tiết"
+      }
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "id": "Khóa chính",
+    "advancePaymentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "name": "Tên báo cáo",
+    "note": "Ghi chú",
+    "fromDate": "Từ ngày",
+    "toDate": "Đến ngày",
+    "errValidateFromDate": "từ ngày phải nhỏ hơn hoặc bằng đến ngày.",
+    "detail": {
+      "content": "Nội dung",
+      "projectCode": "Mã dự án",
+      "cumulativeAdvanceBalance": "Lũy kế số dư tạm ứng đến thời điểm báo cáo",
+      "totalAdvance": "Tổng số tạm ứng đến thời điểm báo cáo",
+      "dissolvedProjectManagementBoard": "Ban quản lý dự án/Chủ đầu tư giải thể",
+      "suspendedProject": "Dự án đình hoãn, không thực hiện",
+      "otherReasons": "Nguyên nhân khác (ghi cụ thể)",
+      "proposedRecoverySolution": "Đề xuất hướng xử lý thu hồi tạm ứng",
+      "budgetFundName": "Nguồn vốn",
+      "description": "Ghi chú"
+    }
+  }
+}

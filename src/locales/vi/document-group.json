@@ -1,0 +1,16 @@
+{
+  "model": "Nhóm văn bản",
+  "page": {
+    "header": "Nhóm văn bản",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo nhóm văn bản"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Nhóm văn bản",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

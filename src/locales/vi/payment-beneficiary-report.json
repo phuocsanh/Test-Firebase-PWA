@@ -1,0 +1,30 @@
+{
+  "model": "Danh sách bảng thanh toán cho đối tượng thụ hưởng",
+  "page": {
+    "header": "Danh sách bảng thanh toán cho đối tượng thụ hưởng",
+    "form": { 
+    }
+  },
+  "fields": {
+    "salarySheetId":"Bảng lương", 
+    "employeeName":"Họ và tên",
+    "employeeCode":"Mã nhân viên",
+    "employeeTypeCode":"Mã loại nhân viên",
+    "employeeTypeName":"Loại nhân viên",
+    "bankNumber":"Số tài khoản",
+    "bankName":"Tên ngân hàng",
+    "totalSalary":"Tổng số",
+    "permanentStaffSalary":"Lương biên chế",
+    "positionAllowance":"Phụ cấp chức vụ",
+    "overtimeAllowance":"Phụ cấp ngoài giờ",
+    "hazardAllowance":"Phụ cấp độc hại",
+    "responsibilityAllowance":"Phụ cấp trách nhiệm",
+    "seniorityExceedingAllowance":"Phụ cấp vượt khung",
+    "contractualLaborWage":"Tiền công lao động theo hợp đồng",
+    "bonus":"Tiền thưởng",
+    "otherAllowances":"Tiền phụ cấp và trợ cấp khác",
+    "phoneExpense":"Tiền điện thoại",
+    "travelAllowance":"Tiền công tác phí",
+    "scholarshipFund":"Tiền học bổng"
+  }
+}

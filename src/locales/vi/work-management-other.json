@@ -1,0 +1,42 @@
+{
+    "model": "Quản lý công việc - Khác",
+    "page": {
+      "header": "Quản lý công việc - Khác",
+      "form": {
+        "edit": "Thông tin chi tiết",
+        "addNew": "Thêm Quản lý công việc - Khác"
+      },
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "itemsRecordManagement": "File đính kèm"
+      },
+      "buttons": {}
+    },
+    "fields": {
+      "branchId": "",
+      "id": "Khóa chính",
+      "workManagementOtherTime": "Ngày lập",
+      "completionDeadline": "Thời hạn HTTN",
+      "completionDeadlineTooltip": "Thời hạn hoàn thành trước ngày",
+      "userCreatedId": "Người lập",
+      "code": "Mã phiếu",
+      "note": "Ghi chú",
+      "name": "Tên công việc",
+      "departmentId": "Phòng",
+      "statusId": "Trạng thái",
+      "ids": "ids",
+      "sort": "sort",
+      "projectId": "Dự án",
+      "executorId": "Cán bộ thực hiện",
+      "relatedUserIds": "Người liên quan",
+      "relatedUserIdsArray": "Người liên quan",
+      "departmentDirectiveContent": "Nội dung CĐCP",
+      "departmentDirectiveContentTooltip": "Nội dung chỉ đạo của phòng",
+      "taskContent": "ND công việc",
+      "taskContentTooltip": "Nội dung công việc",
+      "evaluation": "Đánh giá",
+      "isSaveTmp": "Lưu tạm",
+      "s": {}
+    }
+  }
+  

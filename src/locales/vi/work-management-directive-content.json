@@ -1,0 +1,44 @@
+{
+  "model": "QLCV-Nội dung chỉ đạo",
+  "page": {
+    "header": "QLCV - Nội dung chỉ đạo",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Thêm QLCV - Nội dung chỉ đạo"
+    },
+    "tabs": {
+      "itemsRecordManagement": "File báo cáo",
+      "itemsRecordManagementDirectiveContent": "File chỉ đạo"
+    }
+  },
+
+  "fields": {
+    "branchId": "Chi nhánh",
+    "storeId": "Cửa hàng",
+    "ids": "IDS",
+    "sort": "Sort",
+    "code": "Mã phiếu",
+    "id": "Khóa chính",
+
+    "workManagementDirectiveContentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "directiveContentId": "Theo chỉ đạo",
+    "name": "Tên công việc",
+    "projectId": "Dự án",
+    "departmentId": "Phòng",
+    "statusId": "Trạng thái",
+    "summaryContent": "Nội dung trích yếu",
+    "directiveContent": "Nội dung chỉ đạo",
+    "reportContent": "Nội dung báo cáo",
+    "departmentDirectiveContent": "Nội dung chỉ đạo phòng",
+    "note": "Ghi chú",
+    "executorId": "Cán bộ thực hiện",
+    "relatedUserIds": "Người liên quan",
+    "relatedUserIdsArray": "Người liên quan",
+    "departmentCompletionDeadline": "Thời hạn của phòng",
+    "finalDeadline": "Thời hạn hoàn thành",
+    "actualCompletionDate": "Ngày HT thực tế",
+    "actualCompletionDatePlacehoder": "Ngày hoàn thành thực tế",
+    "progress": "Tiến độ"
+  }
+}

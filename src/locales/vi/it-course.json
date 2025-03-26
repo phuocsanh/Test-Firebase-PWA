@@ -1,0 +1,16 @@
+{
+  "model": "Tin học",
+  "page": {
+    "header": "Tin học",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo tin học"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tin học",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

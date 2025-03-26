@@ -1,0 +1,17 @@
+{
+  "model": "Chức vụ",
+  "page": {
+    "header": "Chức vụ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo chức vụ"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Chức vụ",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động",
+    "isDepartmentHead": "Là trưởng phòng"
+  }
+}

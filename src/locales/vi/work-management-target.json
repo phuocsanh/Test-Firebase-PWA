@@ -1,0 +1,49 @@
+{
+  "model": "QLCV-Chỉ tiêu",
+  "page": {
+    "header": "QLCV - Chỉ tiêu",
+    "form": {
+      "edit": "Sửa chỉ tiêu",
+      "addNew": "Tạo mới chỉ tiêu"
+    },
+    "tabs": {
+      "itemsRecordManagement": "File báo cáo",
+      "itemsRecordManagementTarget": "File chỉ tiêu"
+    },
+    "completionTypeOptions": {
+      "onTime": "Trong hạn",
+      "overdue": "Trễ hạn"
+    },
+    "buttons": {
+      "closed": "Xác nhận kết thúc",
+      "sentForProcessing": "Gửi xử lý",
+      "reprocessed": "Gửi xử lý lại"
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "name": "Tên công việc",
+    "workManagementTargetTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "relatedUserIds": "Người liên quan",
+    "targetId": "Chỉ tiêu",
+    "projectId": "Dự án",
+    "executorId": "Cán bộ thực hiện",
+    "statusId": "Trạng thái",
+    "departmentId": "Phòng",
+    "assignedQuantity": "Số giao",
+    "executedQuantity": "Số thực hiện",
+    "completionDeadline": "Thời hạn hoàn thành trước ngày",
+    "executionContent": "Nội dung thực hiện",
+    "note": "Ghi chú",
+    "progress": "Tiến độ",
+    "departmentDirectiveContent": "Nội dung chỉ đạo của phòng",
+    "ids": "ids",
+    "sort": "sort",
+    "isSaveTmp": "Lưu tạm",
+    "isClosed": "Xác nhận kết thúc",
+    "isSentForProcessing": "Gửi xử lý",
+    "isReprocessed": "Gửi xử lý lại"
+  }
+}

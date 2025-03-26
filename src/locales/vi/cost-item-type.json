@@ -1,0 +1,16 @@
+{
+  "model": "Loại chi phí",
+  "page": {
+    "header": "Loại chi phí",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại chi phí"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại chi phí",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

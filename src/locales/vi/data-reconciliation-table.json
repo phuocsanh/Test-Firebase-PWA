@@ -1,0 +1,42 @@
+{
+  "model": "Bảng đối chiếu số liệu",
+  "page": {
+    "header": "Bảng đối chiếu số liệu",
+    "form": {
+      "edit": "Thông tin Bảng đối chiếu số liệu",
+      "addNew": "Thêm Bảng đối chiếu số liệu"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "branchId": "",
+    "projectId": "Dự án",
+    "projectOwnerId": "Chủ đầu tư",
+    "dataReconciliationTableTime": "Ngày lập",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "dataReconciliationTableDetails": {
+      "id": "Khóa chính",
+      "dataReconciliationTableId": "",
+      "budgetFundId": "Nội dung",
+      "budgetYear": "Năm ngân sách",
+
+      "poPlannedCapital": "vốn kế hoạch",
+      "poDisbursedTotal": "Tổng số",
+      "poDisbursedCompletedWorkload": "Thanh toán KLHT",
+      "poDisbursedAdvance": "Tạm ứng",
+
+      "amountPlannedCapital": "Kế hoạch vốn",
+      "amountAllocatedTotal": "Tổng số",
+      "amountAllocatedCompletedWorkload": "Thanh toán KLHT",
+      "amountAllocatedAdvance": "Tạm ứng",
+      "difference": "Chênh lệch",
+      "notes": "Ghi chú"
+    }
+  }
+}

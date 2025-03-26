@@ -1,0 +1,19 @@
+{
+    "model": "Hạng mục",
+    "page": {
+      "header": "Hạng mục",
+      "form": {
+        "edit": "Thông tin chi tiết",
+        "addNew": "Tạo hạng mục"
+      }
+    },
+    "fields": {
+      "code": "Mã",
+      "name": "Tên hạng mục",
+      "note": "Ghi chú",
+      "isActive": "Hoạt động",
+      "parentId": "Thuộc hạng mục", 
+      "projectId": "Dự án"
+    }
+}
+  

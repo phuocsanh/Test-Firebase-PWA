@@ -1,0 +1,16 @@
+{
+  "model": "Bồi dưỡng nghiệp vụ",
+  "page": {
+    "header": "Bồi dưỡng nghiệp vụ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo bồi dưỡng nghiệp vụ"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Bồi dưỡng nghiệp vụ",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

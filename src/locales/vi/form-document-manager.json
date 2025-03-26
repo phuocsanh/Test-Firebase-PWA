@@ -1,0 +1,27 @@
+{
+  "model": "Quản lý biểu mẫu",
+  "page": {
+    "header": "Quản lý biểu mẫu",
+    "form": {
+      "edit": "Thông tin quản lý biểu mẫu",
+      "addNew": "Thêm quản lý biểu mẫu"
+    },
+    "tabs": {
+      "detail": "Nội dung soạn thảo",
+      "preview": "Xem trước"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "name": "Tên biểu mẫu",
+    "content": "Nội dung",
+    "documentGroupId": "Nhóm văn bản",
+    "note": "Ghi chú",
+    "isNoEditPrint": "Không cho chỉnh khi in",
+    "htmlBody": "Nội dung soạn thảo",
+    "professionType": "Nghiệp vụ"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "",
+  "page": {
+    "header": "Báo cáo kết quả LCNT theo giám đốc dự án",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "listProjectId": "Dự án",
+    "managingDirectorId": "Giám đốc dự án",
+    "methodTenderType": "1.Trong nước 2.Ngoài nước",
+    "methodBiddingType": "1.Qua mạng 2.Không qua mạng",
+    "nationalKeyTotalBidPackages": "Tổng số gói thầu",
+    "nationalKeyTotalBidPackageValue": "Tổng giá gói thầu",
+    "nationalKeyTotalAwardedBidValue": "Tổng giá trúng thầu",
+    "nationalKeyValueDifference": "Chênh lệch",
+    "groupATotalBidPackages": "Tổng số gói thầu",
+    "groupATotalBidPackageValue": "Tổng giá gói thầu",
+    "groupATotalAwardedBidValue": "Tổng giá trúng thầu",
+    "groupAValueDifference": "Chênh lệch",
+    "groupBTotalBidPackages": "Tổng số gói thầu",
+    "groupBTotalBidPackageValue": "Tổng giá gói thầu",
+    "groupBTotalAwardedBidValue": "Tổng giá trúng thầu",
+    "groupBValueDifference": "Chênh lệch",
+    "groupCTotalBidPackages": "Tổng số gói thầu",
+    "groupCTotalBidPackageValue": "Tổng giá gói thầu",
+    "groupCTotalAwardedBidValue": "Tổng giá trúng thầu",
+    "groupCValueDifference": "Chênh lệch",
+    "totalBidPackages": "Cộng Tổng số gói thầu ",
+    "totalBidPackageValue": "Cộng Tổng giá gói thầu ",
+    "totalAwardedBidValue": "Cộng Tổng giá trúng thầu ",
+    "totalValueDifference": "Cộng Chênh lệch ",
+    "tenderTypeName": "Tên hình thức lựa chọn nhà thầu",
+    "tenderTypeCode": "Mã hình thức lựa chọn nhà thầu",
+    "ordinalNumber": "Tổng hợp kết quả LCNT theo giám đốc dự án",
+    "methodTenderTypeName": "Trong nước, ngoài nước",
+    "methodBiddingTypeName": "Qua mạng, không qua mạng"
+  }
+}

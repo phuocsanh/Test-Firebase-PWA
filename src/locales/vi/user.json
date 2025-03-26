@@ -1,0 +1,101 @@
+{
+  "model": "Người dùng",
+  "page": {
+    "header": "Người dùng hệ thống",
+    "description": "Quản lý, tìm kiếm, thiết lập và thêm người dùng mới vào hệ thống",
+    "form": {
+      "edit": "Chỉnh sửa nhân viên",
+      "addNew": "Thêm nhân viên",
+      "description": "Thực hiện các thay đổi đối với hồ sơ của nhân viên bạn tại đây. Nhấp vào lưu khi hoàn tất.",
+      "infoFields": "Thông tin cá nhân",
+      "systemFields": "Thông tin hệ thống",
+      "changeAvatar": "Đổi ảnh đại diện",
+      "avatarIsUploading": "Đang tải ảnh lên"
+    },
+    "userPermission": {
+      "model": "Quyền",
+      "header": "Phân quyền cho nhân viên {{name}}",
+      "selectPermissionGroup": "Chọn nhóm quyền",
+      "description": "Thực hiện các thay đổi đối với quyền truy cập của nhân viên <0>{{name}}</0> tại đây. Nhấp vào <1>áp dụng</1> khi bạn hoàn tất.",
+      "table": {
+        "order": "STT",
+        "id": "ID",
+        "name": "Quyền",
+        "permissionId": "Id",
+        "show": "Xem",
+        "create": "Thêm",
+        "update": "Sửa",
+        "delete": "Xóa",
+        "import": "Import",
+        "export": "Export",
+        "print": "In",
+        "toggleRow": "Tất cả (on/off)"
+      }
+    },
+    "headerAvatar": {
+      "profile": "Hồ sơ",
+      "logout": "Đăng xuất",
+      "changePass": "Đổi mật khẩu",
+      "notify": "Nhận thông báo"
+    },
+    "changePassDialog": {
+      "model": "Mật khẩu",
+      "header": "Mật khẩu và bảo mật",
+      "description": "Thực hiện thay đổi mật khẩu tài khoản của bạn tại đây. Nhấp vào áp dụng khi bạn hoàn tất.",
+      "fields": {
+        "oldPassword": "Mật khẩu cũ",
+        "newPassword": "Mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu"
+      }
+    },
+    "notification": {
+      "title": "Gửi yêu cầu nhận thông báo",
+      "acceptNotifySuccess": "Yêu cầu nhận thông báo thành công.",
+      "acceptNotifyFail": "Yêu cầu nhận thông báo không thành công."
+    }
+  },
+  "fields": {
+    "isActive": "Hoạt động",
+    "isInactive": "Hoạt động",
+    "userName": "Tài khoản",
+    "password": "Mật khẩu",
+    "name": "Tên người dùng",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "gender": "Giới tính",
+    "birthday": "Ngày sinh",
+    "images": "Ảnh",
+    "note": "Ghi chú",
+    "isSale": "Là nhân viên bán hàng",
+    "groupId": "Nhóm người dùng",
+    "isAccess": "Được truy cập (is access)",
+    "uri": "Truy cập mặc định",
+    "cardId": "CMND/CCCD",
+    "dateOfIssue": "Ngày cấp",
+    "placeOfIssue": "Nơi cấp",
+    "population": "Hộ khẩu",
+    "domicileNow": "Nơi ở hiện tại",
+    "nation": "Quốc gia",
+    "socialInsurance": "Mã số BHXH",
+    "healthInsurance": "Mã số BHYT",
+    "maritalStatus": "Tình trạng hôn nhân",
+    "yearJoinCompany": "Năm vào làm",
+    "basicSalary": "Lương cơ bản",
+    "allowance": "Phụ cấp",
+    "position": "Chức vụ",
+    "isOutputNegative": "Xuất âm",
+    "areaId": "Khu vực",
+    "branch": "Chi nhánh",
+    "departmentId": "Phòng"
+  },
+  "validation": {
+    "email": "Vui lòng nhập đúng định dạng email"
+  },
+  "description": {
+    "userName": "Bạn không thể tự ý thay đổi tên tài khoản của mình.",
+    "name": "Đây là tên hiển thị công khai của bạn. Nó có thể là tên thật hoặc là bút danh của bạn",
+    "isActive": "Dùng để quản lý xem trạng thái hoạt động của nhân viên này",
+    "isAdmin": "Dùng để hiển thị thông tin thống kê trên dashboard mobile"
+  }
+}

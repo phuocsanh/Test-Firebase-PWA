@@ -1,0 +1,17 @@
+{
+  "model": "Ngoại ngữ",
+  "page": {
+    "header": "Ngoại ngữ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo ngoại ngữ"
+    }
+  },
+
+  "fields": {
+    "code": "Mã",
+    "name": "Tên ngoại ngữ",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

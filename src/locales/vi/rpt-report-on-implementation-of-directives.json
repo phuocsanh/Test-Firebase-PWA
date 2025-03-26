@@ -1,0 +1,25 @@
+{
+  "model": "Thống kê kết quả thực hiện",
+  "page": {
+    "header": "Thống kê kết quả thực hiện",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "ordinalNumber": "Thống kê kết quả thực hiện",
+    "executorName": "Họ tên",
+    "departmentName": "Phòng nghiệp vụ",
+    "taskTargetDirectiveType": "Loại chỉ tiêu nhiệm vụ nội dung chỉ đạo khác",
+    "assignedQuantity": "Số lượng giao ",
+    "withinDeadlineQuantity": "Trong hạn ",
+    "onTimeQuantity": "Đúng hạn ",
+    "lateQuantity": "Trễ hạn ",
+    "aheadOfScheduleQuantity": "Vượt tiến độ "
+  }
+}

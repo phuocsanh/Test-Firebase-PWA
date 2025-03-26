@@ -1,0 +1,16 @@
+{
+  "model": "Huyện",
+  "page": {
+    "header": "Huyện",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo huyện"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Huyện",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

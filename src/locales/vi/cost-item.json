@@ -1,0 +1,20 @@
+{
+    "model": "Khoản mục chi phí",
+    "page": {
+      "header": "Khoản mục chi phí",
+      "form": {
+        "edit": "Thông tin chi tiết",
+        "addNew": "Tạo khoản mục chi phí"
+      }
+    },
+    "fields": {
+      "code": "Mã",
+      "name": "Khoản mục chi phí",
+      "note": "Ghi chú",
+      "isActive": "Hoạt động",
+      "parentId": "Thuộc chi phí",
+      "costItemTypeId": "Loại chi phí",
+      "projectId": "Dự án"
+    }
+  }
+  

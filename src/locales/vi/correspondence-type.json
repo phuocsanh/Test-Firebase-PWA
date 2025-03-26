@@ -1,0 +1,16 @@
+{
+  "model": "Loại thư",
+  "page": {
+    "header": "Loại thư",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại thư"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên loại thư",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

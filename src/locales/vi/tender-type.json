@@ -1,0 +1,16 @@
+{
+  "model": "Hình thức LCNT",
+  "page": {
+    "header": "Hình thức LCNT",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo hình thức LCNT"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Hình thức LCNT",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

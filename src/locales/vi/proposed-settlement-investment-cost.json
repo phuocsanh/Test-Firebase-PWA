@@ -1,0 +1,34 @@
+{
+  "model": "Chi phí đầu tư đề nghị quyết toán",
+  "page": {
+    "header": "Chi phí đầu tư đề nghị quyết toán",
+    "form": {
+      "edit": "Thông tin Chi phí đầu tư đề nghị quyết toán",
+      "addNew": "Thêm Chi phí đầu tư đề nghị quyết toán",
+      "tabs": {
+        "detail": "Thông tin chi tiết"
+      }
+    },
+    "notification": {
+      "warning": {
+        "acceptance": "Vui lòng chọn dự án"
+      }
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "projectId": "Tên dự án",
+    "projectOwnerId": "Chủ đầu tư",
+    "branchId": "",
+    "proposedSettlementInvestmentCostDetails": {
+      "id": "Khóa chính",
+      "proposedSettlementInvestmentCostId": "",
+      "costItemId": "Nội dung chi phí",
+      "approvedFinalProjectBudget": "Tổng mức đầu tư của dự án (dự án thành phần, tiểu dự án độc lập) hoặc dự toán (công trình, hạng mục công trình) được phê duyệt hoặc điều chỉnh lần cuối",
+      "approvedFinalEstimate": "Dự toán (Tổng dự toán) được phê duyệt hoặc điều chỉnh lần cuối",
+      "proposedSettlementValue": "Giá trị đề nghị quyết toán",
+      "increaseDecreaseReason": "Nguyên nhân tăng, giảm"
+    }
+  }
+}

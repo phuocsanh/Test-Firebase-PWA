@@ -1,0 +1,49 @@
+{
+  "model": "",
+  "page": {
+    "header": "",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm ",
+      "tabs": {
+        "detail": "Thông tin chi tiết"
+      }
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "reportPublicInvestmentSettlementTime": "Ngày lập",
+    "budgetYear": "Năm ngân sách",
+    "budgetFundId": "Nguồn ngân sách",
+    "note": "Ghi chú",
+    "reportPublicInvestmentSettlementDetails": {
+      "projectId": "Dự án",
+      "accountOpeningLocation": "Địa điểm mở tài khoản",
+      "investmentProjectCode": "Mã dự án đầu tư",
+      "totalInvestment": "Tổng mức đầu tư",
+      "totalFunding": "Tổng số",
+      "advanceFundsUnrecovered": "Vốn tạm ứng theo chế độ chưa thu hồi",
+      "adjustedRecoveredAdvance": "Sô vốn tạm ứng theo chế độ chưa thu hồi của các năm trước nộp điều chỉnh giảm trong năm QT",
+      "settledWorkloadPayment": "Thanh toán KLHT trong năm QT phần vốn tạm ứng theo chế độ chưa thu hồi tư K/C đến hết năm SN trước năm QT",
+      "extendedFundingPlanBeforeTheSettlement": "Kế hoạch vốn được kéo dài ",
+      "totalExtendedFundsDisbursementBeforeTheSettlement": "Tổng số - Giải ngân- trước năm quyết toán",
+      "extendedFundingPaymentDisbursementBeforeTheSettlement": "Thanh toán - Giải ngân - trước năm quyết toán ",
+      "extendedAdvanceFundsDisbursementBeforeTheSettlement": "Vốn tạm ứng - Giải ngân - trước năm quyết toán ",
+      "furtherExtendedFundingPlanBeforeTheSettlement": "Vốn KH tiếp tục được phép kéo dài sang thời gian thực hiện và giải ngân sang năm sau năm QT (nếu có)",
+      "unusedFundsCancellation": "Số vốn còn lại chưa giải ngân hủy bỏ",
+      "fundingPlan": "Vốn KH của năm ",
+      "totalExtendedFundsDisbursementCurrentYear": "Tổng số - Giải ngân - Trong năm quyết toán",
+      "extendedFundingPaymentDisbursementCurrentYear": "Thanh toán KLTH - Giải ngân - Trong năm quyết toán",
+      "extendedAdvanceFundsDisburementCurrentYear": "Vốn tạm ứng - Giải ngân - Trong năm quyết toán",
+      "furtherExtendedFundingPlanCurrentYear": " Vốn KH được phép kéo dài thời gian thực hiện và giải ngân sang năm sau năm QT (nếu có)  ",
+      "currentYearUnusedFundsCancellation": "Số vốn còn lại chưa giải ngân hủy bỏ (nếu có)",
+      "totalSettledFunding": "Tổng cộng vốn đã thanh toán KLHT được QT trong năm QT",
+      "cumulativeUnrecoveredAdvance": "Lũy kế vốn tạm ứng theo chế độ chưa thu hồi đến hết năm QT chuyển sang các năm sau",
+      "cumulativeDisbursedFunding": "Lũy kế số vốn đã giải ngân từ KC đến hết năm QT"
+    }
+  }
+}

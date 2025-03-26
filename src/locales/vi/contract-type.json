@@ -1,0 +1,16 @@
+{
+  "model": "Loại hợp đồng",
+  "page": {
+    "header": "Loại hợp đồng",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại hợp đồng"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Loại hợp đồng",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

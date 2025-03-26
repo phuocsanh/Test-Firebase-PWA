@@ -1,0 +1,16 @@
+{
+  "model": "Chuyên môn",
+  "page": {
+    "header": "Chuyên môn",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo chuyên môn"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Chuyên môn",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

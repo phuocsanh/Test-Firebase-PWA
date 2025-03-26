@@ -1,0 +1,31 @@
+{
+  "model": "Danh sách nộp bảo hiểm",
+  "page": {
+    "header": "Danh sách nộp bảo hiểm",
+    "form": { 
+    }
+  },
+  "fields": {
+    "salarySheetId":"Bảng lương",
+    "ordinalNumber":"",
+    "employeeName":"Tên nhân viên",
+    "employeeCode":"Mã nhân viên",
+    "employeeId":"Nhân viên",
+    "basicSalary":"Lương cơ sở",
+    "salaryCoefficient":"Hệ số lương",
+    "positionAllowanceCoefficient":"Hệ số phục cấp chức vụ",
+    "baseSalary":"Mức lương căn bản",
+    "agencySocialInsurance":"BHXH cơ quan đóng",
+    "agencyHealthInsurance":"BHYT cơ quan đóng",
+    "agencyAccidentInsurance":"BHTN cơ quan đóng",
+    "personalSocialInsurance":"BHXH cá nhân đóng",
+    "personalHealthInsurance":"BHYT cá nhân đóng",
+    "personalAccidentInsurance":"BHTN cá nhân đóng",
+    "totalSocialInsurance":"Số tiền Nộp BHXH",
+    "totalHealthInsurance":"Số tiền nộp bảo hiểm y tế",
+    "totalAccidentInsurance":"Số tiền nộp bảo hiểm thất nghiệm",
+    "totalInsurance":"Tổng tiền đóng",
+    "employeeTypeCode":"Mã loại nhân viên",
+    "employeeTypeName":"Tên loại nhân viên"
+  }
+}

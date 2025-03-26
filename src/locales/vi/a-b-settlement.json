@@ -1,0 +1,55 @@
+{
+  "model": "Quyết toán A - B",
+  "page": {
+    "header": "Quyết toán A - B",
+    "form": {
+      "edit": "Thông tin Quyết toán A - B",
+      "addNew": "Thêm Quyết toán A - B",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "overview": "Thông tin quyết toán A-B"
+      }
+    },
+    "notification": {
+      "warning": {
+        "acceptance": "Vui lòng chọn hợp đồng"
+      }
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "abSettlementTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "projectId": "Tên dự án",
+    "contractCode": "Hợp đồng số",
+    "contractId": "Hợp đồng số",
+    "contractSignedDate": "Ngày ký HĐ",
+    "contractAppendix": "Phụ lục HĐ",
+    "contractAppendixSignedDate": "Ngày ký PLHĐ",
+    "projectOwnerId": "Chủ đầu tư",
+    "contractorId": "Nhà thầu",
+    "paymentTimes": "Thanh toán lần thứ",
+    "ids": "ids",
+    "sort": "sort",
+    "code": "Mã phiếu",
+    "acceptedTotalAmount": "Giá trị hợp đồng",
+    "settlementTotalAmount": "Giá trị quyết toán",
+    "aBSettlementDetails": {
+      "id": "Khóa chính",
+      "aBSettlementId": "Quyết toán A - B",
+      "taskId": "Tên công việc",
+      "unitId": "Đơn vị tính",
+      "acceptedQuantity": "Khối lượng",
+      "acceptedUnitPrice": "Đơn giá",
+      "acceptedAmount": "Thành tiền",
+      "settlementQuantity": "Khối lượng",
+      "settlementUnitPrice": "Đơn giá",
+      "settlementAmount": "Thành tiền",
+      "settlement": "Quyết toán",
+      "accepted": "Nghiệm thu",
+      "note": "Ghi chú"
+    }
+  }
+}

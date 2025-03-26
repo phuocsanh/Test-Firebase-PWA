@@ -1,0 +1,39 @@
+{
+	"model": "Kế hoạch giao vốn",
+	"page": {
+		"header": "Kế hoạch giao vốn",
+		"form": {
+			"edit": "Thông tin chi tiết",
+			"addNew": "Thêm Kế hoạch giao vốn"
+		},
+		"tabs": {
+			"detail": "Thông tin chi tiết"
+		},
+		"buttons": {}
+	},
+	"fields": {
+		"branchId": "",
+		"id": "Khóa chính",
+		"code": "Mã phiếu",
+		"capitalIncreasePlanTime": "Ngày lập",
+		"userCreatedId": "Người lập",
+		"budgetFundId": "Nguồn ngân sách",
+		"approvalDate": "Ngày quyết định",
+		"approvalNumber": "Số quyết định",
+		"budgetYear": "Năm ngân sách",
+		"totalAmount": "Tổng tiền",
+		"note": "Ghi chú",
+		"capitalIncreasePlanDetails": {
+			"id": "Khóa chính",
+			"capitalIncreasePlanId": "Kế hoạch giao vốn",
+			"projectId": "Dự án",
+			"budgetSourceCodeId": "Mã nguồn NS",
+			"programCode": "Mã chương",
+			"sectorCode": "Mã ngành KT",
+			"typeCode": "Loại",
+			"itemCode": "Khoản",
+			"totalAmount": "Số tiền",
+			"budgetYear": "Năm ngân sách (khỏi hiển thị)"
+		}
+	}
+}

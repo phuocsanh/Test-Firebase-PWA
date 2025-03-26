@@ -1,0 +1,46 @@
+{
+  "model": "Danh sách chỉ tiêu",
+  "page": {
+    "header": "Danh sách chỉ tiêu",
+    "form": {
+      "edit": "Sửa chỉ tiêu",
+      "addNew": "Tạo mới chỉ tiêu"
+    },
+    "tabs": {
+      "targetFile": "File chỉ tiêu"
+    },
+    "completionTypeOptions": {
+      "onTime": "Trong hạn",
+      "overdue": "Trễ hạn"
+    },
+    "buttons": {
+      "closed": "Xác nhận kết thúc",
+      "sentForProcessing": "Gửi xử lý",
+      "reprocessed": "Gửi xử lý lại",
+      "send": "Gửi chỉ tiêu"
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "name": "Tên chỉ tiêu",
+    "targetTime": "Ngày giao",
+    "assignedQuantity": "Số giao",
+    "executedQuantity": "Số thực hiện",
+    "completionDeadline": "Hoàn thành trước ngày",
+    "userCreatedId": "Người lập",
+    "responsibleUserId": "Cá nhân phụ trách",
+    "departmentIds": "Phòng",
+    "statusId": "Trạng thái",
+    "completionType": "Hoàn thành",
+    "executionContent": "Nội dung thực hiện",
+    "note": "Ghi chú",
+
+    "ids": "ids",
+    "sort": "sort",
+    "isSaveTmp": "Lưu tạm",
+    "isClosed": "Xác nhận kết thúc",
+    "isSentForProcessing": "Gửi xử lý",
+    "isReprocessed": "Gửi xử lý lại"
+  }
+}

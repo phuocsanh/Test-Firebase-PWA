@@ -1,0 +1,65 @@
+{
+  "model": "Phiếu đăng ký làm thêm giờ",
+  "page": {
+    "header": "Phiếu đăng ký làm thêm giờ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo phiếu đăng ký làm thêm giờ",
+      "forward": "Chuyển tiếp",
+      "approve": "Phê duyệt"
+    },
+    "tabs": {
+      "approveHistories": "Lịch sử duyệt"
+    }
+  },
+  "fields": {
+    "id": "Khóa chính",
+    "overtimeRegistrationTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "registeringOfficerId": "Cán bộ đăng ký",
+    "overtimeRegistrationDate": "Ngày làm thêm giờ",
+    "fromDate": "Từ giờ",
+    "toDate": "Đến giờ",
+    "overtimeHours": "Số giờ làm thêm",
+    "content": "Nội dung làm thêm",
+    "note": "Ghi chú",
+    "statusId": "Trạng thái",
+    "approvalProcessId": "Quy trình duyệt",
+    "isHoliday": "Là ngày nghỉ lễ",
+    "details": {
+      "requester": "Người yêu cầu",
+      "approver": "Người duyệt",
+      "approveDeadline": "Hạn phê duyệt",
+      "note": "Ghi chú",
+      "comment": "Nhận xét"
+    },
+    "approveHistories": {
+      "approvalProcessDetailId": "Quy trình duyệt chi tiết",
+      "step": "Bước",
+      "note": "Ghi chú",
+      "requesterId": "Người yêu cầu",
+      "approveDeadline": "Hạn phê duyệt",
+      "isApprove": "Đồng ý/Từ chối",
+      "approveOrRejectTime": "Thời gian duyệt",
+      "comment": "Nhận xét",
+      "approverId": "Người duyệt"
+    },
+    "approvalProcessCurrentStep": {
+      "requester": "Người yêu cầu",
+      "approver": "Người duyệt",
+      "approveDeadline": "Hạn phê duyệt",
+      "note": "Ghi chú",
+      "comment": "Nhận xét"
+    },
+    "approvalProcessNextStep": {
+      "requester": "Người yêu cầu",
+      "approver": "Người duyệt",
+      "approveDeadline": "Hạn phê duyệt",
+      "note": "Ghi chú",
+      "comment": "Nhận xét"
+    }
+  },
+  "validate": {
+    "overtimeHours": "Số giờ làm không hợp lệ. Vui lòng kiểm tra lại"
+  }
+}

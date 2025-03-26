@@ -1,0 +1,16 @@
+{
+  "model": "Kết quả, đánh giá, xếp loại",
+  "page": {
+    "header": "Kết quả, đánh giá, xếp loại",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo kết quả, đánh giá, xếp loại"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Kết quả, đánh giá, xếp loại",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "model": "Kế hoạch lựa chọn nhà thầu",
+  "page": {
+    "header": "Kế hoạch lựa chọn nhà thầu",
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới kế hoạch lựa chọn nhà thầu",
+      "edit": "Sửa kế hoạch lựa chọn nhà thầu",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    },
+    "methodTenderTypes": {
+      "international": "Quốc tế",
+      "domestic": "Trong nước"
+    },
+    "methodBiddingTypes": {
+      "online": "Qua mạng",
+      "offline": "Không qua mạng"
+    }
+  },
+  "fields": {
+    "projectId": "Dự án",
+    "code": "Mã kế hoạch",
+    "planNumber": "Số kế hoạch",
+    "evaluationDocumentNumber": "Số VB thẩm định",
+    "planName": "Tên kế hoạch",
+    "userCreatedId": "Người lập",
+    "contractorSelectionPlanTime": "Ngày lập",
+    "approvalDate": "Ngày quyết định",
+    "statusId": "Trạng thái",
+    "note": "Ghi chú",
+    "costItemId": "Khoản mục chi phí",
+    "tenderPackageName": "Tên gói thầu",
+    "price": "Giá gói thầu",
+    "tenderTypeId": "Hình thức lựa chọn nhà thầu",
+    "biddingMethodId": "Phương thức LCNT",
+    "biddingSectorId": "Lĩnh vực đấu thầu",
+    "methodTenderType": "Trong nước/Quốc tế",
+    "methodBiddingType": "Qua mạng/Không qua mạng",
+    "startTimeContractorSelectionProcess": "Thời gian tổ chức lựa chọn nhà thầu",
+    "contractTypeId": "Loại hợp đồng",
+    "contractExecutionTime": "Thời gian thực hiện hợp đồng",
+    "approvalNumber": "Số quyết định",
+    "timeContractorSelectionProcess": "Thời gian bắt đầu tổ chức lựa chọn nhà thầu",
+    "totalAmount": "Tổng giá trị",
+    "numberOfTenderPackages": "Số lượng gói thầu",
+    "noteDetail": "Tóm tắc công việc chính của gói thầu",
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

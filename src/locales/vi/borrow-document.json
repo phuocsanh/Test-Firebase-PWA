@@ -1,0 +1,27 @@
+{
+  "model": "Theo dõi cho mượn hồ sơ",
+  "page": {
+    "header": "Danh sách theo dõi cho mượn hồ sơ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo thông tin theo dõi cho mượn hồ sơ"
+    }
+  },
+  "fields": {
+    "borrowDocumentTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "borrowDocumentDate": "Ngày mượn",
+    "borrowerId": "Người mượn",
+    "recordCode": "Mã số hồ sơ",
+    "documentName": "Tên hồ sơ",
+    "boxNumber": "Số hộp",
+    "warehouse": "Kho",
+    "usageContent": "Nội dung sử dụng",
+    "lenderId": "Người cho mượn",
+    "preBorrowingCondition": "Tình trạng trước mượn",
+    "returnDate": "Ngày trả",
+    "conditionAfterBorrowing": "Tình trạng sau mượn",
+    "statusId": "Trạng thái",
+    "note": "Ghi chú"
+  }
+}

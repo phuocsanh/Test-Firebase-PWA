@@ -1,0 +1,16 @@
+{
+  "model": "Giới tính",
+  "page": {
+    "header": "Giới tính",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo giới tính"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên giới tính",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

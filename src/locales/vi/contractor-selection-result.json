@@ -1,0 +1,63 @@
+{
+  "model": "Tổng hợp kết quả LCNT",
+  "page": {
+    "header": "Tổng hợp kết quả LCNT",
+    "form": {
+      "edit": "Thông tin Tổng hợp kết quả LCNT",
+      "addNew": "Thêm Tổng hợp kết quả LCNT"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "contractorSelectionResultTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "managingDirectorId": "GĐ. Quản lý dự án",
+    "projectId": "Dự án",
+    "content": "Nội dung",
+    "ids": "ids",
+    "sort": "sort",
+    "approverId": "Trưởng phòng xác nhận",
+    "contractorSelectionResultDetails": {
+      "tenderTypeId": "Hình thức và lĩnh vực",
+      "methodTenderType": "1.Trong nước 2.Ngoài nước",
+      "methodBiddingType": "1.Qua mạng 2.Không qua mạng",
+
+      "nationalKeyTotalBidPackages": "Tổng số gói thầu",
+      "nationalKeyTotalBidPackageValue": "Tổng giá gói thầu ",
+      "nationalKeyTotalAwardedBidValue": "Tổng giá trúng thầu ",
+      "nationalKeyValueDifference": "Chênh lệch ",
+
+      "groupATotalBidPackages": "Tổng số gói thầu ",
+      "groupATotalBidPackageValue": "Tổng giá gói thầu",
+      "groupATotalAwardedBidValue": "Tổng giá trúng thầu",
+      "groupAValueDifference": "Chênh lệch",
+
+      "groupBTotalBidPackages": "Tổng số gói thầu",
+      "groupBTotalBidPackageValue": "Tổng giá gói thầu",
+      "groupBTotalAwardedBidValue": "Tổng giá trúng thầu",
+      "groupBValueDifference": "Chênh lệch",
+
+      "groupCTotalBidPackages": "Tổng số gói thầu",
+      "groupCTotalBidPackageValue": "Tổng giá gói thầu",
+      "groupCTotalAwardedBidValue": "Tổng giá trúng thầu",
+      "groupCValueDifference": "Chênh lệch",
+
+      "totalBidPackages": "Tổng số gói thầu ",
+      "totalBidPackageValue": "Tổng giá gói thầu ",
+      "totalAwardedBidValue": "Tổng giá trúng thầu ",
+      "totalValueDifference": "Chênh lệch ",
+
+      "tenderTypeName": "Tên hình thức lựa chọn nhà thầu",
+      "tenderTypeCode": "Mã hình thức lựa chọn nhà thầu",
+      "ordinalNumber": "Tổng hợp kết quả LCNT",
+      "type": "1.Lĩnh vực đấu thầu; 2.Hình thức lựa chọn nhà thầu",
+      "methodTenderTypeName": "Trong nước, ngoài nước",
+      "methodBiddingTypeName": "Qua mạng, không qua mạng"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "model": "Thống kê theo biểu mẫu báo cáo",
+    "page": {
+        "header": "Thống kê theo biểu mẫu báo cáo",
+        "buttons": {
+            "fetchData": "Lấy dữ liệu",
+            "print": "In biểu mẫu"
+        }
+    },
+    "fields": {
+        "template": "Biểu mẫu",
+        "templateName": "Tên biểu mẫu",
+        "content": "Nội dung",
+        "reportDate": "Ngày thống kê",
+        "reporterId": "CB thống kê"
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "model": "Danh sách theo dõi nghỉ phép",
+  "page": {
+    "header": "Danh sách theo dõi nghỉ phép",
+    "form": {
+      "saveTemp": "Lưu tạm",
+      "tabs": {
+        "detail": "Quản lý công việc",
+        "attachment": "Hồ sơ đính kèm"
+      },
+      "edit": "Sửa theo dõi nghỉ phép",
+      "addNew": "Tạo mới theo dõi nghỉ phép"
+    },
+    "tabs": {
+      "contractTaskManagementDocuments": "Phụ lục hồ sơ đính kèm",
+      "financeDepartments": "Phòng tài chính - Tổng hợp",
+      "planningDepartments": "Phòng kế hoạch - Chất lượng",
+      "executionResult": "kết quả thực hiện"
+    }
+  },
+
+  "fields": {
+    "id": "Khóa chính",
+    "leaveTime": "Ngày lập",
+    "positionId": "Chức vụ",
+    "departmentId": "Bộ phận",
+    "employeeId": "Nhân viên",
+    "fromDate": "Nghỉ từ ngày",
+    "toDate": "Nghỉ đến ngày",
+    "leaveQuantity": "Số ngày nghỉ",
+    "leaveReason": "Lý do nghỉ phép",
+    "statusId": "Trạng thái duyệt",
+    "userCreatedId": "Người lập",
+    "note": "Ghi chú",
+
+    "errValidateFromDate": "nghỉ từ ngày phải nhỏ hơn hoặc bằng nghỉ đến ngày."
+  }
+}

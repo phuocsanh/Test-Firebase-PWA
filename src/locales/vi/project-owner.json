@@ -1,0 +1,16 @@
+{
+  "model": "Chủ đầu tư",
+  "page": {
+    "header": "Chủ đầu tư",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo chủ đầu tư"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên chủ đầu tư",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

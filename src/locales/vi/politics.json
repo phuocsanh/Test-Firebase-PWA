@@ -1,0 +1,16 @@
+{
+  "model": "Chính trị",
+  "page": {
+    "header": "Chính trị",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo chính trị"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Chính trị",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

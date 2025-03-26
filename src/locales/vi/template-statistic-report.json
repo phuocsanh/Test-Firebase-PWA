@@ -1,0 +1,16 @@
+{
+  "model": "Thống kê theo biểu mẫu báo cáo",
+  "page": {
+    "header": "Thống kê theo biểu mẫu báo cáo"
+  },
+  "fields": {
+    "projectId": "Dự án",
+    "capitalIncreasePlanDetailId": "Mã nguồn NS",
+    "reportTemplateId": "Biểu mẫu",
+    "name": "Tên biểu mẫu",
+    "content": "Nội dung",
+    "reportTemplateTime": "Ngày thống kê",
+    "userCreatedId": "CB Thống kê",
+    "year": "Năm"
+  }
+}

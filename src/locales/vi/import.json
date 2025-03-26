@@ -1,0 +1,27 @@
+{
+    "model": "Import Excel",
+    "page": {
+        "tabs": {
+            "data": "Dữ liệu",
+            "personalConfiguration": "Thiết lập của người dùng"
+        },
+        "performImport": "Lấy dữ liệu",
+        "isImporting": "Đang lấy dữ liệu import, vui lòng chờ...",
+        "resetColumn": "Đặt lại cấu hình cột"
+    },
+    "fields": {
+        "file": "Tệp",
+        "professionType": "Loại nghiệp vụ",
+        "sheetName": "Sheet name",
+        "fromRow": "Từ dòng",
+        "toRow": "Đến dòng",
+        "rowName": "Dòng tiêu đề",
+        "userId": "Người dùng",
+        "isDefault": true,
+        "items": {
+            "nameProfession": "Tên cột",
+            "nameExcel": "Cột Excel",
+            "nameField": "Trường"
+        }
+    }
+}

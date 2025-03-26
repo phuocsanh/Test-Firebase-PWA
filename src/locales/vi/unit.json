@@ -1,0 +1,16 @@
+{
+  "model": "Đơn vị tính",
+  "page": {
+    "header": "Đơn vị tính",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo đơn vị tính"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Đơn vị tính",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

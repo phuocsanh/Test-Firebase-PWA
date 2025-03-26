@@ -1,0 +1,408 @@
+{
+  "header": {
+    "title": "Phần mềm bia nước ngọt"
+  },
+  "system": {
+    "name": "Quản trị hệ thống",
+    "company": "Thông tin công ty",
+    "users": {
+      "name": "Người dùng",
+      "permissionGroups": "Nhóm quyền",
+      "list": "Người dùng",
+      "department": "Phòng ban",
+      "routeDelivery": "Tuyến đường",
+      "approvalConfig": "Tuyến giao hàng"
+    },
+    "changePassword": "Đổi mật khẩu"
+  },
+  "base": {
+    "branch": {
+      "name": "Chi nhánh"
+    },
+    "name": "Dữ liệu cơ sở",
+    "areaBranch": {
+      "name": "Khu vực - Chi nhánh",
+      "area": "Khu vực",
+      "branch": "Chi nhánh"
+    },
+    "customer": {
+      "name": "Khách hàng",
+      "customerGroup": "Nhóm khách hàng",
+      "list": "Khách hàng",
+      "importOriginalDebt": "Import công nợ khách hàng ban đầu"
+    },
+    "product": {
+      "name": "Hàng hóa",
+      "unit": "Đơn vị tính",
+      "productGroup": "Nhóm hàng hóa",
+      "list": "Hàng hóa",
+      "priceSetting": "Thiết lập giá"
+    },
+    "contractor": {
+      "name": "Nhà thầu",
+      "list": "Nhà thầu",
+      "type": "Loại nhà thầu"
+    },
+    "hr": {
+      "name": "Nhân sự"
+    },
+    "project": {
+      "name": "Dự án"
+    },
+    "finance": {
+      "name": "Kế toán"
+    },
+    "projectGroup": {
+      "name": "Nhóm dự án"
+    },
+    "projectOwner": {
+      "name": "Chủ đầu tư"
+    },
+    "agency": {
+      "name": "Cơ quan ban hành"
+    },
+    "deploymentPhase": {
+      "name": "Giai đoạn triển khai dự án"
+    },
+    "tenderType": {
+      "name": "Hình thức LCNT"
+    },
+    "biddingSector": {
+      "name": "Lĩnh vực đấu thầu"
+    },
+    "biddingMethod": {
+      "name": "Phương thức LCNT"
+    },
+    "contractType": {
+      "name": "Loại hợp đồng"
+    },
+    "costItemType": {
+      "name": "Loại chi phí"
+    },
+    "documentGroup": {
+      "name": "Nhóm văn bản"
+    },
+    "fileType": {
+      "name": "Loại tập tin"
+    },
+    "department": {
+      "name": "Phòng chuyên môn"
+    },
+    "status": {
+      "name": "Trạng thái"
+    },
+    "position": {
+      "name": "Chức vụ"
+    },
+    "contractorType": {
+      "name": "Loại nhà thầu"
+    },
+    "workPosition": {
+      "name": "Vị trí làm việc"
+    },
+    "evaluationResult": {
+      "name": "Kết quả, đánh giá, xếp loại"
+    },
+    "expertise": {
+      "name": "Chuyên môn"
+    },
+    "major": {
+      "name": "Chuyên ngành"
+    },
+    "politics": {
+      "name": "Chính trị"
+    },
+    "careerTraining": {
+      "name": "Bồi dưỡng nghiệp vụ"
+    },
+    "itCourse": {
+      "name": "Tin học"
+    },
+    "foreignLanguage": {
+      "name": "Ngoại ngữ"
+    },
+    "correspondenceType": {
+      "name": "Loại thư"
+    },
+    "inventoryItem": {
+      "name": "Vật tư, thiết bị"
+    },
+    "asset": {
+      "name": "Tài sản"
+    },
+    "genderType": {
+      "name": "Giới tính"
+    },
+    "trainingInstitution": {
+      "name": "Cơ sở đào tạo"
+    },
+    "district": {
+      "name": "Huyện"
+    },
+    "ward": {
+      "name": "Phường, xã"
+    },
+    "inventoryItemType": {
+      "name": "Loại vật tư, thiết bị"
+    },
+    "assetType": {
+      "name": "Loại tài sản"
+    },
+    "projectManagementType": {
+      "name": "Hình thức quản lý dự án"
+    },
+    "projectStatus": {
+      "name": "Tình trạng dự án"
+    },
+    "budgetFund": {
+      "name": "Nguồn ngân sách"
+    },
+    "budgetSourceCode": {
+      "name": "Mã nguồn NS"
+    },
+    "costItem": {
+      "name": "Khoản mục chi phí"
+    },
+    "constructionItem": {
+      "name": "Hạng mục"
+    },
+    "constructionTask": {
+      "name": "Công tác thực hiện"
+    },
+    "accountFund": {
+      "name": "Tài khoản/Quỹ"
+    },
+    "employeeType": {
+      "name": "Loại nhân viên"
+    },
+    "contractAppendixType": {
+      "name": "Loại điều chỉnh PLHĐ"
+    },
+    "unit": {
+      "name": "Đơn vị tính"
+    },
+    "stateManagement": {
+      "name": "QLNN"
+    },
+    "supplier": {
+      "name": "Nhà cung cấp",
+      "supplierGroup": "Nhóm nhà cung cấp",
+      "list": "Nhà cung cấp",
+      "importOriginalDebt": "Import công nợ nhà cung cấp"
+    },
+    "staff": {
+      "name": "Nhân viên",
+      "staffGroup": "Nhóm nhân viên",
+      "list": "Nhân viên",
+      "workShift": "Ca làm việc"
+    },
+    "vehicle": {
+      "name": "Phương tiện",
+      "vehicleType": "Loại phương tiện",
+      "list": "Phương tiện"
+    },
+    "warehouse": "Kho hàng",
+    "operation": "Công đoạn",
+    "productionWorkshop": "Phân xưởng",
+    "gasStation": "Trụ bơm",
+    "printForm": "Mẫu in",
+    "newPrintForm": "Mẫu in tool mới",
+    "approvalProcess": "Thiết lập quy trình duyệt"
+  },
+  "projectManagement": {
+    "name": "Quản lý dự án",
+    "contractTaskManagement": "Quản lý công việc hợp đồng",
+    "designTaskManagement": "Quản lý công việc thiết kế",
+    "project": "Dự án",
+    "adjustedInvestment": "Tổng mức đầu tư điều chỉnh",
+    "adjustedCostEstimation": "Dự toán điều chỉnh"
+  },
+  "workManagement": {
+    "name": "Quản lý công việc",
+    "contractTaskManagement": "Quản lý công việc hợp đồng",
+    "designTaskManagement": "Quản lý công việc thiết kế",
+    "project": "Dự án",
+    "adjustedInvestment": "Tổng mức đầu tư điều chỉnh",
+    "adjustedCostEstimation": "Dự toán điều chỉnh"
+  },
+  "operations": {
+    "name": "Nghiệp vụ",
+    "capitalValue": "Chốt tồn giá vốn",
+    "finance": {
+      "name": "Thu - Chi",
+      "payment": "Phiếu chi",
+      "receipt": "Phiếu thu",
+      "cashDepositBranch": "Phiếu nộp tiền",
+      "fundTrans": "Chuyển tiền nội bộ",
+      "stockTransfer": "Phiếu chuyển kho",
+      "stockAdjustment": "Điều chỉnh tồn",
+      "stockInput": "Nhập kho",
+      "stockOut": "Xuất kho"
+    },
+    "project": {
+      "name": "Dự án",
+      "contractorSelectionPlan": "Kế hoạch lựa chọn nhà thầu",
+      "tenderPackage": "Gói thầu",
+      "contract": "Hợp đồng",
+      "contractAppendix": "Phụ lục hợp đồng",
+      "completionAcceptance": "Nghiệm thu thực hiện",
+      "projectScheduleSetup": "Thiết lập tiến độ thực hiện dự án"
+    },
+    "shell": {
+      "name": "Quản lý vỏ",
+      "customerReturnShell": "Khách trả vỏ",
+      "supplierReturnShell": "Trả vỏ nhà cung cấp",
+      "customerShellDebtReport": "Công nợ vỏ khách hàng",
+      "supplierShellDebtReport": "Công nợ vỏ nhà cung cấp",
+      "shellInventoryReport": "Thống kê kho vỏ"
+    },
+    "warehouse": {
+      "name": "Kho",
+      "stockInput": "Phiếu nhập kho",
+      "stockOut": "Phiểu xuất kho",
+      "stockTransfer": "Phiếu chuyển kho",
+      "stockAdjustment": "Điều chỉnh tồn"
+    },
+    "sellAtStation": {
+      "name": "Bán hàng (Trụ)",
+      "retailOrder": "Bán hàng",
+      "scheduleWorkShift": "Sắp xếp ca",
+      "scheduleWorkShiftView": "Xem sắp xếp ca",
+      "handOverWorkShift": "Bàn giao ca (nv nhân ca)",
+      "finalizeWorkShift": "Chốt ca"
+    },
+    "purchase": {
+      "name": "Quản lý mua hàng",
+      "contract": "Hợp đồng mua hàng",
+      "orderSupplier": "Đặt hàng nhà cung cấp",
+      "purchaseOrder": "Mua hàng",
+      "returnSupplier": "Trả hàng nhà cung cấp"
+    },
+    "sales": {
+      "name": "Quản lý bán hàng",
+      "contract": "Hợp đồng bán hàng",
+      "orderCustomer": "Khách đặt hàng",
+      "salesOrder": "Bán hàng",
+      "customerReturn": "Khách trả hàng",
+      "quotation": "Báo giá",
+      "returnSale": "Khách trả hàng"
+    },
+    "delivery": {
+      "name": "Điều xe giao hàng",
+      "vehicle": "Phiếu điều xe giao hàng",
+      "vehicleList": "Nhận giao hàng"
+    },
+    "stock": {
+      "name": "Kho hàng",
+      "stockOut": "Xuất kho",
+      "stockIn": "Nhập kho",
+      "stockAdjustment": "Điều chỉnh tồn kho"
+    }
+  },
+  "employee": {
+    "name": "Nhân viên"
+  },
+  "hr": {
+    "name": "Nhân sự",
+    "employee": "Nhân sự",
+    "salarySheet": "Bảng lương",
+    "overtimeRegistration": "Phiếu đăng ký làm thêm giờ",
+    "borrowDocument": "Theo dõi cho mượn hồ sơ",
+    "leave": "Theo dõi nghỉ phép",
+    "trainingManagement": "Theo dõi đào tạo",
+    "insuranceContributionReport": "Danh sách nộp bảo hiểm",
+    "paymentBeneficiaryReport": "Bảng thanh toán cho đối tượng thụ hưởng",
+    "employeePayrollReport": "Bảng lương nhân viên chức",
+    "salarySheetForLaborContractReport": "Bảng lương theo hợp đồng lao động",
+    "overtimeAttendanceTrackingReport": "Bảng chấm công làm thêm giờ"
+  },
+  "report": {
+    "name": "Báo cáo - thống kê",
+    "customerDebtReport": "Công nợ khách hàng",
+    "supplierDebtReport": "Công nợ nhà cung cấp",
+    "orderCustomerSummary": "Tổng kết khách đặt hàng",
+    "salesSummary": "Tổng kết bán hàng",
+    "purchaseSummary": "Tổng kết mua hàng",
+    "receiptPaymentFundReport": "Báo cáo thu chi tồn quỹ",
+    "receiptPaymentSummary": "Tổng hợp nội dung thu chi",
+    "customerReturnSummary": "Tổng kết khách trả hàng",
+    "productStockMin": "Tồn dưới định mức",
+    "saleProfit": "Báo cáo lợi nhuận bán hàng",
+    "inventoryImportExportStatistics": "Thống kê xuất nhập tồn",
+    "salesByRoute": "Báo cáo bán hàng theo tuyến",
+    "statisticsByReportTemplate": "Thống kê theo biểu mẫu báo cáo",
+    "setupReportTemplate": "Thiết lập biểu mẫu báo cáo",
+    "rptReportOnImplementationOfDirectives": "Thống kê kết quả thực hiện"
+  },
+  "reportManager": {
+    "name": "Báo cáo quản trị",
+    "revenueByBranch": "Doanh thu theo chi nhánh",
+    "revenueByCustomer": "Doanh thu theo khách hàng",
+    "revenueByProductGroup": "Doanh thu theo nhóm sản phẩm",
+    "revenueByProduct": "Doanh thu theo sản phẩm",
+    "revenueByDate": "Doanh thu theo thời gian",
+    "businessResult": "Báo cáo tổng hợp",
+    "revenueByEmployee": "Báo cáo doanh số nhân viên",
+    "saleEndOfTheDay": "Báo cáo bán hàng",
+    "revenueGrowth": "Biểu đồ tăng trưởng doanh số"
+  },
+  "setupAnnualHoliday": "Thiết lập ngày nghỉ trong năm",
+  "boardOfDirectorsWorkSchedule": "Lịch làm việc của ban giám đốc",
+  "directives": "Nội dung chỉ đạo, chỉ tiêu, nhiệm vụ",
+  "reportTemplate": "Thiết lập biểu mẫu báo cáo",
+  "documentFormEntry": "Nhập dữ liệu theo biểu mẫu chung",
+  "templateStatisticsReport": "Thống kê theo biểu mẫu báo cáo",
+  "login": "Đăng nhập",
+  "checkDomain": "Lỗi liên kết",
+  "home": "Trang chủ",
+  "userProfile": "Thiết lập tài khoản",
+  "uiGenerateTool": "Tạo file tự động",
+  "manufacture": {
+    "name": "Sản xuất",
+    "inputtingOperationProgressName": "Nhập tiến độ công đoạn",
+    "productionPlanName": "Kế hoạch sản xuất",
+    "reportTrackingProductionProgressName": "Theo dõi tiến độ sản xuất",
+    "productionTrackRawMaterialUsageName": "Thống kê sản xuất",
+    "productionOrder": "Lệnh sản xuất",
+    "materialRequirementCalculation": "Tính nhu cầu nguyên vật liệu"
+  },
+  "generalFinance": {
+    "name": "Tài chỉnh - Tổng hợp",
+    "aBSettlement": "Quyết toán A-B",
+    "reportAnnex3a": "Báo cáo phụ lục 3a",
+    "proposedSettlementInvestmentCost": "Chi phí đầu tư đề nghị quyết toán",
+    "aBAdjustmentSettlement": "Điều chỉnh khối lượng quyết toán",
+    "contractSettlement": "Thanh lý hợp đồng",
+    "reportPublicInvestmentSettlement": "B/c QT vốn đầu tư công NNSNC"
+  },
+  "backlogProjectManagement": "Quản lý dự án tồn động",
+  "reportSerialManagement": "Quản lý cho số báo cáo",
+  "guaranteeLetterTracking": "Theo dõi thư bảo lãnh",
+  "documentDecision": "Thiết lập căn cứ quyết định",
+  "capitalIncreasePlan": "Kế hoạch giao vốn",
+  "outstandingEquipment": "Thiết bị tồn đọng",
+  "adjustedInvestment": "Tổng mức đầu tư điều chỉnh",
+  "assetIncrement": "Ghi tăng tài sản",
+  "formDocumentManager": "Quản lý biểu mẫu",
+  "spendingCommitment": "Cam kết chi",
+  "adjustedCostEstimation": "Dự toán điều chỉnh",
+  "paymentReceipt": "Chứng từ thanh toán",
+  "historyAction": "Lịch sử thao tác",
+  "investmentForm": "Hình thức đầu tư",
+  "investmentType": "Loại hình đầu tư",
+  "constructionType": "Loại công trình",
+  "directivesReport": "Báo cáo chỉ tiêu, nhiệm vụ – nội dung chỉ đạo",
+  "contractorSelectionResult": "Tổng hợp kết quả LCNT",
+  "contractorSelectionResultByManagingDirectorReport": "Báo cáo Tổng hợp kết quả LCNT theo GĐDA",
+  "contractorSelectionResultByDepartmentReport": "Báo cáo Tổng hợp kết quả LCNT theo trưởng phòng",
+  "projectDisbursement": "Báo cáo giải ngân theo dự án",
+  "dataReconciliationTable": "Bảng đối chiếu số liệu",
+  "advancePayment": "Báo cáo tình hình dư tạm ứng",
+  "savingRateContractorSelectionPlanReport": "Tỷ lệ tiết kiệm trong công tác LCNT",
+  "contractorParticipationTenderPackageListReport": "Danh sách nhà thầu tham gia thực hiện gói thấu",
+  "projectDebtStatusStatisticsReport": "Thống kê tình hình công nợ dự án",
+  "capitalPlanDisbursementProgressReport": "Báo cáo tiến độ giải ngân kế hoạch vốn",
+  "projectDepartmentDisbursementProgressReport": "Bảng tiến độ giải ngân phòng QLDA",
+  "savingInBiddingReport": "Báo cáo tiết kiệm trong đấu thầu",
+  "planning": { "name": "Kế hoạch chất lượng" }
+}

@@ -1,0 +1,24 @@
+{
+  "model": "Danh sách bảng lương theo hợp đồng lao động",
+  "page": {
+    "header": "Danh sách bảng lương theo hợp đồng lao động",
+    "form": { 
+    }
+  },
+  "fields": {
+    "salarySheetId":"Bảng lương",
+    "ordinalNumber":"",
+    "employeeCode":"Mã nhân viên",
+    "employeeName":"Họ và tên",
+    "randCode":"Mã ngạch",
+    "level":"Bậc",
+    "salaryCoefficient":"Hệ số lương",
+    "jobAllowance":"Phụ cấp công việc",
+    "hazardAllowance":"Phụ cấp độc hại",
+    "basicSalary":"Mức lương cơ bản",
+    "personalSocialInsurance":"BHXH 8%",
+    "personalHealthInsurance":"BHYT 1,5 %",
+    "personalAccidentInsurance":"BHTN 1%",
+    "totalAmount":"Thực lãnh"
+  }
+}

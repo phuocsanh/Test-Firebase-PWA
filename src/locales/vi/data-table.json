@@ -1,0 +1,75 @@
+{
+  "content": {
+    "noResult": "Không có dữ liệu"
+  },
+  "rowSelection": "Đã chọn {{selectedRows}} trên {{rows}} dòng",
+  "pagination": {
+    "perPage": "Số dòng trên trang",
+    "pageIndex": "Trang",
+    "totalRow": "Tổng số dòng"
+  },
+  "column": {
+    "sortAsc": "Sắp xếp tăng dần",
+    "sortDesc": "Sắp xếp giảm dần",
+    "hide": "Ẩn cột",
+    "pinToLeft": "Ghim trái",
+    "pinToRight": "Ghim phải",
+    "unpin": "Bỏ ghim",
+    "group": "Nhóm theo cột này",
+    "ungroup": "Bỏ nhóm"
+  },
+  "viewOptions": {
+    "label": "Thiết lập hiển thị",
+    "columnName": "Tên cột",
+    "pinningLeft": "Ghim trái",
+    "unpin": "Chưa ghim",
+    "pinningRight": "Ghim phải",
+    "showAllColumns": "Hiển thị tất cả",
+    "hideAllColumns": "Ẩn tất cả",
+    "notFoundColumn": "Không tìm thấy cột",
+    "position": {
+      "1": "Vị trí 1",
+      "2": "Vị trí 2",
+      "3": "Vị trí 3",
+      "4": "Vị trí 4",
+      "5": "Vị trí 5",
+      "6": "Vị trí 6"
+    }
+  },
+  "toolbar": {
+    "add": "Thêm mới",
+    "export": "Xuất excel",
+    "import": "Nhập excel",
+    "downloadImportTemplate": "Tải file import mẫu",
+    "clearFilterAll": "Làm sạch bộ lọc",
+    "refetch": "Nạp lại dữ liệu",
+    "resetAppearance": "Trở về giao diện mặc định"
+  },
+  "filter": {
+    "number": {
+      "value": "Giá trị",
+      "operators": {
+        "equalTo": "Bằng (=)",
+        "notEqualTo": "Khác (!=)",
+        "lessThan": "Nhỏ hơn (<)",
+        "lessThanOrEqualTo": "Nhỏ hơn hoặc bằng (<=)",
+        "greaterThan": "Lớn hơn (>)",
+        "greaterThanOrEqualTo": "Lớn hơn hoặc bằng (>=)"
+      }
+    },
+    "date": {
+      "noData": "Chưa chọn ngày"
+    }
+  },
+  "fields": {
+    "order": "STT",
+    "actions": "Thao tác"
+  },
+  "import": {
+    "errorLine": "Dòng lỗi",
+    "errorNote": "Mô tả lỗi",
+    "errorTitle": "Lỗi import",
+    "success": "Import dữ liệu thành công"
+  }
+}
+

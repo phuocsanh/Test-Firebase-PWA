@@ -1,0 +1,84 @@
+{
+  "model": "Nghiệm thu thực hiện",
+  "page": {
+    "header": "Nghiệm thu thực hiện",
+    "selectFromContractWindow": "Danh sách hợp đồng",
+    "selectFromContractAppendixWindow": "Danh sách phụ lục hợp đồng",
+    "form": {
+      "saveTemp": "Lưu tạm tính",
+      "addNew": "Thêm mới nghiệm thu thực hiện",
+      "edit": "Sửa nghiệm thu thực hiện",
+      "okLabel": "Đồng ý",
+      "buttonContract": "Chọn danh sách hợp đồng",
+      "buttonContractAppendix": "Chọn danh sách phụ lục hợp đồng",
+      "tabs": {
+        "detail": "Thông tin chi tiết",
+        "attachment": "Hồ sơ đính kèm"
+      }
+    }
+  },
+  "fields": {
+    "code": "Mã phiếu",
+    "projectId": "Dự án",
+    "contractId": "Theo hợp đồng",
+    "startTime": "TG bắt đầu",
+    "numberOfCode": "Số chứng từ",
+    "contractAppendixId": "Theo PLHĐ",
+    "endTime": "TG kết thúc",
+    "completionAcceptanceTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "costItemId": "Khoản mục chi phí",
+    "phase": "Đợt",
+    "statusId": "Trạng thái",
+    "acceptanceLocation": "Địa điểm nghiệm thu",
+    "implementationContent": "ND thực hiện CCXĐ",
+    "approvalProcessId": "Quy trình duyệt",
+    "totalAmount": "Giá trị nghiệm thu",
+    "contractorId": "Đơn vị thực hiện",
+    "tenderPackageId": "Gói thấu",
+    "note": "Ghi chú",
+    "completionAcceptanceDetails": {
+      "constructionTaskId": "Tên công việc",
+      "unitId": "Đơn vị tính",
+      "contractQuantity": "Khối lượng theo hợp đồng",
+      "previousPeriodCumulative": "Lũy kế đến hết kỳ trước",
+      "executionInThisPeriod": "Thực hiện kỳ này",
+      "cumulativeForThisPeriod": "Lũy kế đến hết kỳ này",
+      "startTime": "Bắt đầu",
+      "endTime": "Kết thúc",
+      "note": "Ghi chú",
+      "contractorId": "Thầu phụ",
+      "isOutSide": "Trường để phân tab",
+      "price": "Đơn giá",
+      "totalAmount": "Thành tiền",
+      "contractAppendixDetailId": "PLHĐ Chi tiết",
+      "contractDetailId": "Hợp đồng chi tiết"
+    },
+    "itemsRecordManagement": {
+      "projectId": "Dự án",
+      "groupDocId": "Loại văn bản",
+      "noDoc": "Số văn bản",
+      "dateCreate": "Ngày tạo hồ sơ",
+      "content": "Nội dung",
+      "note": "Ghi chú",
+      "agencyId": "Cơ quan ban hành",
+      "typeUpload": "Loại upload",
+      "itemFile": {
+        "typeFileId": "Loại tập tin",
+        "name": "Tên tập tin",
+        "fileName": "Đính kèm file",
+        "note": "Ghi chú"
+      }
+    }
+  },
+  "message": {
+    "notExist": "Vui lòng chọn dữ liệu hàng hóa",
+    "invalidPrice": "Vui lòng nhập giá hàng hóa",
+    "invalidAmount": "Vui lòng nhập số lượng hàng hóa",
+    "invalidPriceType": "Lấy giá không thành công! Vui lòng chọn loại giá",
+    "invalidBranch": "Lấy giá không thành công! Vui lòng chọn chi nhánh",
+    "invalidDate": "Lấy giá không thành công! Vui lòng chọn ngày lập",
+    "invalidProductIds": "Lấy giá không thành công! Vui lòng hàng hóa",
+    "requireGuarantor": "Vui lòng chọn người bảo lãnh"
+  }
+}

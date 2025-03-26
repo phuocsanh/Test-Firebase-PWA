@@ -1,0 +1,25 @@
+{
+  "model": "Nhóm nhà cung cấp",
+  "page": {
+    "header": "Nhóm nhà cung cấp",
+    "description": "Quản lý, tìm kiếm, thiết lập và thêm  nhóm nhà cung cấp",
+    "form": {
+      "edit": "Chỉnh sửa nhóm nhà cung cấp",
+      "addNew": "Thêm nhóm nhà cung cấp",
+      "description": "Thực hiện các thay đổi đối với  nhóm nhà cung cấp tại đây. Nhấp vào lưu khi hoàn tất."
+    }
+  },
+  "fields": {
+    "status": "Trạng thái",
+    "isInactive": "Ngừng hoạt động",
+    "code": "Mã nhóm nhà cung cấp",
+    "name": "Tên nhóm nhà cung cấp",
+    "groupType": "Loại",
+    "note": "Ghi chú",
+    "scheduleSales": "Lịch bán hàng"
+  },
+  "dialog": {
+    "text1": "Thông tin",
+    "text2": "Tính năng"
+  }
+}

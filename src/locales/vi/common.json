@@ -1,0 +1,104 @@
+{
+  "action": {
+    "save": "Lưu lại",
+    "create": "Tạo mới",
+    "update": "Cập nhật",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "copy": "Copy",
+    "back": "Quay về",
+    "close": "Đóng lại",
+    "select": "chọn",
+    "enter": "Nhập",
+    "cancel": "Hủy",
+    "continue": "Tiếp tục",
+    "search": "Tìm kiếm",
+    "view": "Xem",
+    "import": "Import",
+    "export": "Export",
+    "ok": "Đồng ý",
+    "scan": "Quét",
+    "apply": "Áp dụng",
+    "saveTemp": "Lưu tạm",
+    "send": "Gửi",
+    "add": "Thêm",
+    "attach": "Đính kèm file",
+    "backToHome": "Quay về trang chủ",
+    "downloadTemplate": "Tải file mẫu",
+    "clone": "Nhân bản",
+    "getData": "Lấy dữ liệu",
+    "forward": "Chuyển tiếp",
+    "approve": "Phê duyệt",
+    "reject": "Từ chối"
+  },
+  "status": "Trạng thái",
+  "notFound": "Không tìm thấy dữ liệu nào",
+  "validation": {
+    "required": "Vui lòng {{action }} {{fieldName}}",
+    "max": "Đã vượt quá số ký tự cho phép ({{max}}",
+    "min": "Phải có ít nhật {{min}} ký tự",
+    "branchIds": "Danh sách chi nhánh không hợp lệ",
+    "warehouseId": "Danh sách kho không hợp lệ",
+    "accountFundId": "Danh sách tài khoảng không hợp lệ",
+    "searchDate": "Ngày tìm kiếm không hợp lệ",
+    "fromDate": "Từ ngày không được để trống",
+    "toDate": "Đến ngày không được để trống",
+    "email": "Địa chỉ email không đúng định dạng"
+  },
+  "notification": {
+    "success": "Thành công",
+    "fail": "Thất bại",
+    "notFound": "Hiện giờ chưa có thông báo"
+  },
+  "delete": {
+    "areYouSure": "Bạn có hoàn toàn chắc chắn không?",
+    "actionCannotUndone": "Hành động này không thể hoàn tác. Thao tác này sẽ xóa vĩnh viễn dữ liệu {{model}} <0> {{data}}</0> khỏi hệ thống."
+  },
+  "modalListImage": {
+    "title": "Danh sách hình ảnh",
+    "description": "Hiển thị xem danh sách hình ảnh",
+    "btnTitle": "Xem hình ảnh"
+  },
+  "content": {
+    "isActive": "Đang hoạt động",
+    "isInActive": "Ngưng hoạt động",
+    "yes": "Có",
+    "no": "Không",
+    "data": "Dữ liệu",
+    "useOriginalImage": "Sử dụng ảnh gốc",
+    "privateRouteState": "Ứng dụng xảy ra sự cố",
+    "publicRouteState": "Ứng dụng xảy ra sự cố",
+    "total": "Tổng:",
+    "printHeader": "In biểu mẫu",
+    "printA4": "In A4",
+    "documentForm": "Biểu mẫu",
+    "saveAsWord": "Xuất Word",
+    "addProduct": "Thêm hàng hóa",
+    "createNew": "Tạo mới",
+    "row": "Dòng",
+    "fromDate": "Từ ngày",
+    "toDate": "Đến ngày"
+  },
+  "loading": "Đang tải...",
+  "helpText": "Vui lòng liên hệ hỗ trợ",
+  "expired": "Liên kết đã hết hạn!",
+  "notExist": "Liên kết không tồn tại!",
+  "unitDefault": {
+    "unit": "ĐVT gốc",
+    "unit1": "ĐVT 1",
+    "unit2": "ĐVT 2",
+    "unit3": "ĐVT 3"
+  },
+  "currency": {
+    "vnd": "đồng"
+  },
+  "landClearancePlanType": {
+    "withoutCompensation": "Không bồi thường",
+    "withCompensation": "Có bồi thường"
+  },
+  "taskType": {
+    "finishToStart": "",
+    "startToStart": "SS",
+    "finishToFinish": "FF"
+  }
+}

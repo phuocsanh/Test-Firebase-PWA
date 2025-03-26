@@ -1,0 +1,16 @@
+{
+  "model": "Loại tập tin",
+  "page": {
+    "header": "Loại tập tin",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo loại tập tin"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên loại tập tin",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

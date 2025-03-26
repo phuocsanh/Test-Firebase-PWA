@@ -1,0 +1,49 @@
+{
+  "model": "Dự toán điều chỉnh",
+  "page": {
+    "header": "Dự toán điều chỉnh",
+    "form": {
+      "edit": "Thông tin Dự toán điều chỉnh",
+      "addNew": "Thêm Dự toán điều chỉnh"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "branchId": "",
+    "isActive": "Hoạt động",
+    "id": "Khóa chính",
+    "code": "Mã phiếu",
+    "projectId": "Dự án",
+    "userCreatedId": "Người lập",
+    "adjustedCostEstimationTime": "Ngày lập",
+    "ids": "ids",
+    "sort": "sort",
+    "note": "Ghi chú",
+    "totalPostTaxValue": "Tổng dự toán điều chỉnh",
+    "totalPostTaxValueShort": "Tổng DTĐC",
+    "documentCode": "Số văn bản",
+    "signingDate": "Ngày ký",
+    "signerId": "Người ký",
+    "statusId": "Trạng thái",
+    "approvalProcessId": "Quy trình duyệt",
+    "adjustedCostEstimationDetails": {
+      "id": "Khóa chính",
+      "adjustedCostEstimationId": "Tổng dự toán điều chỉnh",
+      "costItemId": "Nội dung chi phí",
+      "symbol": "Ký hiệu",
+      "percentageRate": "Tỉ lệ %",
+      "calculationMethod": "Cách tính",
+      "preTaxValue": "Giá trị trước thuế",
+      "vatTax": "Thuế CTCT (8%)",
+      "postTaxValue": "Giá trị sau thuế",
+      "vat": "% Thuế CTCT"
+    },
+    "adjustedCostEstimationDetailsSummaries": {
+      "costItemTypeId": "Nội dung chi phí",
+      "costItemValue": "Giá trị"
+    }
+  }
+}

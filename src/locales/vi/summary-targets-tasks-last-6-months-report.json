@@ -1,0 +1,38 @@
+{
+  "model": "Tiến độ thực hiện 6 tháng đầu năm",
+  "page": {
+    "header": "",
+    "form": {
+      "edit": "Thông tin ",
+      "addNew": "Thêm "
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    },
+    "buttons": {}
+  },
+  "fields": {
+    "q3AssignedTargets": "Số chỉ tiêu được giao",
+    "q3CompletedTargets": "Đã hoàn thành",
+    "q3IncompleteTargets": "Chưa hoàn thành",
+    "q3AssignedTasks": "Số nhiệm vụ được giao",
+    "q3CompletedTasksOnTime": "Đã hoàn thành - đúng hạn",
+    "q3CompletedTasksLate": "Đã hoàn thành - Trễ hạn",
+    "q3IncompleteTasksWithinDeadline": "Chưa hoàn thành - Trong hạn",
+    "q3IncompleteTasksPastDeadline": "Chưa hoàn thành - Trễ hạn",
+    "q4AssignedTargets": "Số chỉ tiêu được giao",
+    "q4CompletedTargets": "Đã hoàn thành",
+    "q4IncompleteTargets": "Chưa hoàn thành",
+    "q4AssignedTasks": "Số nhiệm vụ được giao",
+    "q4CompletedTasksOnTime": "Đã hoàn thành - đúng hạn",
+    "q4CompletedTasksLate": "Đã hoàn thành - Trễ hạn",
+    "q4IncompleteTasksWithinDeadline": "Chưa hoàn thành - Trong hạn",
+    "q4IncompleteTasksPastDeadline": "Chưa hoàn thành - Trễ hạn",
+    "ordinalNumber": "Năm",
+    "q3": "Quý III",
+    "q4": "Quý IV",
+    "targets": "Chỉ tiêu",
+    "task": "Nhiệm vụ",
+    "year": "Năm thống kê"
+  }
+}

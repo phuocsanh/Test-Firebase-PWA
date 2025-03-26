@@ -1,0 +1,16 @@
+{
+  "model": "QLNN",
+  "page": {
+    "header": "QLNN",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Tạo QLNN"
+    }
+  },
+  "fields": {
+    "code": "Mã",
+    "name": "Tên QLNN",
+    "note": "Ghi chú",
+    "isActive": "Hoạt động"
+  }
+}

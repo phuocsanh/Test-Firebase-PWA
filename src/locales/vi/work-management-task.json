@@ -1,0 +1,40 @@
+{
+  "model": "QLCV-Nhiệm vụ",
+  "page": {
+    "header": "QLCV - Nhiệm vụ",
+    "form": {
+      "edit": "Thông tin chi tiết",
+      "addNew": "Thêm QLCV - Nhiệm vụ"
+    },
+    "tabs": {
+      "itemsRecordManagement": "File báo cáo",
+      "itemsRecordManagementTask": "File chỉ đạo"
+    }
+  },
+
+  "fields": {
+    "branchId": "Chi nhánh",
+    "storeId": "Cửa hàng",
+    "ids": "IDS",
+    "sort": "Sort",
+    "code": "Mã phiếu",
+    "id": "Khóa chính",
+
+    "taskId": "Theo nhiệm vụ",
+    "name": "Tên công việc",
+    "workManagementTaskTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "projectId": "Dự án",
+    "departmentId": "Phòng",
+    "statusId": "Trạng thái",
+    "executorId": "Cán bộ thực hiện",
+    "relatedUserIds": "Người liên quan",
+    "completionDeadline": "Thời hạn hoàn thành",
+    "progressUpdateDate": "Tiến độ thực hiện đến ngày",
+    "progressUpdateDateShort": "TĐTH đến ngày",
+    "progress": "Tiến độ",
+    "departmentDirectiveContent": "Nội dung chỉ đạo của phòng",
+    "departmentDirectiveContentShort": "NDCĐ của phòng",
+    "note": "Ghi chú"
+  }
+}

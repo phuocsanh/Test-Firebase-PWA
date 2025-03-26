@@ -1,0 +1,15 @@
+{
+  "model": "Thông báo",
+  "page": {
+    "header": "Thông báo",
+    "common": {
+      "notFound": "Chưa có thông báo",
+      "markAsRead": "Đánh dấu đã đọc"
+    }
+  },
+  "tabs": {
+    "all": "Tất cả",
+    "unread": "Chưa đọc"
+  },
+  "fields": {}
+}

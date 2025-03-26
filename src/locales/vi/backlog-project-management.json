@@ -1,0 +1,44 @@
+{
+  "model": "Quản lý dự án tồn đọng",
+  "page": {
+    "header": "Quản lý dự án tồn đọng",
+    "form": {
+      "edit": "Thông tin Quản lý dự án tồn đọng",
+      "addNew": "Thêm Quản lý dự án tồn đọng"
+    },
+    "tabs": {
+      "detail": "Thông tin chi tiết"
+    }
+  },
+  "fields": {
+    "branchId": "",
+    "id": "Khóa chính",
+    "backlogProjectManagementTime": "Ngày lập",
+    "userCreatedId": "Người lập",
+    "note": "Ghi chú",
+    "name": "Tên tồn đọng",
+    "projectQuantity": "Số công trình",
+    "backlogProjectManagementProjects": {
+      "id": "Khóa chính",
+      "backlogProjectManagementId": "Quản lý dự án tồn đọng",
+      "projectId": "Dự án",
+      "pendingSubmissionType": "Đang trình",
+      "completedTaskContent": "Nội dung công việc đã thực hiện",
+      "difficulties": "Khó khăn",
+      "issuesAndSolution": "Vướng mắc và đề xuất hướng giải quyết",
+      "responsiblePersonId": "Người phụ trách",
+      "projectManagerId": "Cán bộ QLDA",
+      "specializedDepartmentId": "Phòng chuyên môn",
+      "pendingSubmissionTypeOptions": {
+        "departmentOfFinanceExaminesSettlementRecords": "Sở Tài chính thảm tra hồ sơ quyết toán",
+        "departmentOfFinancePlanningExaminesSettlementRecords": "Phòng Tài chính - Kế hoạch thẩm tra hồ sơ quyết toán"
+      },
+      "backlogProjectManagementProjectDetails": {
+        "id": "Khóa chính",
+        "backlogProjectManagementProjectId": "Quản lý dự án tồn đọng - Dự án",
+        "monthYear": "Tháng/Năm",
+        "implementationPlan": "Kế hoạch thực hiện"
+      }
+    }
+  }
+}

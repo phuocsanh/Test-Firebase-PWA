@@ -1,0 +1,23 @@
+{
+  "model": "Kho",
+  "page": {
+    "header": "Kho",
+    "description": "Quản lý, tìm kiếm, thiết lập và thêm kho",
+    "form": {
+      "edit": "Chỉnh sửa kho",
+      "addNew": "Thêm kho",
+      "description": "Thực hiện các thay đổi đối với kho tại đây. Nhấp vào lưu khi hoàn tất."
+    }
+  },
+  "fields": {
+    "isInactive": " Ngưng sử dụng",
+    "code": "Mã kho",
+    "name": "Tên kho",
+    "address": "Địa chỉ",
+    "stocker": "Thủ kho",
+    "phone": "Số điện thoại",
+    "note": "Ghi chú",
+    "isDefault": "Kho mặc định",
+    "status": "Trạng thái"
+  }
+}
