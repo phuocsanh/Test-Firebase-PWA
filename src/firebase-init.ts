@@ -26,6 +26,7 @@ console.log('🚀 ~ messaging:', messaging);
 // Hàm yêu cầu quyền nhận thông báo
 export const requestNotificationPermission = async () => {
   const permission = await Notification.requestPermission();
+  console.log('🚀 ~ requestNotificationPermission ~ permission:', permission);
   if (permission === 'granted') {
     const token = await getToken(messaging, {
       // vapidKey: import.meta.env.VITE_FIREBASE_VAPID_KEY,

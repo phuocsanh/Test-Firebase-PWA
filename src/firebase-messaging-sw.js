@@ -23,14 +23,17 @@ self.addEventListener('activate', event => {
   );
 });
 
+
+
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyD3Ck4f7Q3PIJ_WRqIdsRagwbISjrrBAGM',
-  authDomain: 'bqlda-hoc-mon.firebaseapp.com',
-  projectId: 'bqlda-hoc-mon',
-  storageBucket: 'bqlda-hoc-mon.firebasestorage.app',
-  messagingSenderId: '568867220435',
-  appId: '1:568867220435:web:973b81f944108377c6dd26',
-  measurementId: 'G-334Q9F6EMG',
+  apiKey: '__VITE_FIREBASE_API_KEY__',
+  authDomain: '__VITE_FIREBASE_AUTH_DOMAIN__',
+  projectId: '__VITE_FIREBASE_PROJECT_ID__',
+  storageBucket: '__VITE_FIREBASE_STORAGE_BUCKET__',
+  messagingSenderId: '__VITE_FIREBASE_MESSAGING_SENDER_ID__',
+  appId: '__VITE_FIREBASE_APP_ID__',
+  measurementId: '__VITE_FIREBASE_MEASUREMENT_ID__',
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -59,10 +62,10 @@ self.addEventListener('notificationclick', event => {
   const id = event.notification.data.refId || null;
   console.log('URL to open:', urlToOpen);
 
-  function navigateToPath(type, id) {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-    return id == null || id < 0 ? type : `${type}/${id}`;
-  }
+function navigateToPath(type, id) {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  return id == null || id < 0 ? type : `${type}/${id}`;
+}
   event.waitUntil(
     clients
       .matchAll({ type: 'window', includeUncontrolled: true })
@@ -78,7 +81,7 @@ self.addEventListener('notificationclick', event => {
             // console.log('Active client found:', activeClient);
             // Gửi thông điệp đến client để tự xử lý chuyển hướng
             activeClient.postMessage({ type: 'NAVIGATE', path: navigateToPath(urlToOpen, id) });
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+// eslint-disable-next-line @typescript-eslint/no-unsafe-return
             return activeClient.focus();
           }
           // console.log('No suitable client found, opening new window');

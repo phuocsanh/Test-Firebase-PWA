@@ -66,7 +66,6 @@ export const HeaderAvatarDropdown = () => {
   const handleEnableNotifications = async () => {
     console.log('Bi sao tha');
     try {
-      await navigator.serviceWorker.ready;
       const token = await requestNotificationPermission();
       if (token) {
         const data = await pushToken({
